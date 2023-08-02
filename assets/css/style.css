@@ -14,6 +14,7 @@ body {
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
   background-color: #d6cccc;
+  /* background-color: #ffffff; */
 }
 
 h1 {
@@ -139,9 +140,6 @@ header .nav-item a:hover {
 }
 
 /* Burger menu */
-#toggle-nav {
-	display: none;
-}
 
 #burger-menu-svg {
 	width: 2rem;
@@ -183,12 +181,15 @@ header .nav-item a:hover {
 
 
 
+
+
 /* Main */
 main {
   flex-grow: 1;
   /* padding: 15px; */
   /* margin: 10vh 0; */
   position: relative;
+  text-align: center;
 }
 
 /* main::after {
@@ -210,9 +211,16 @@ main {
   content: "";
   position: absolute;
   top: 0;
+  left: 0;
   background-color: rgba(30, 30, 30, 0.9);
   width: 100%;
   height: 100%;
+}
+
+.shevron-icon {
+  width: 1rem;
+  fill: #ffffff;
+  color: #ffffff;
 }
 
 .main-wrapper {
@@ -232,6 +240,7 @@ main {
   content: "";
   position: absolute;
   top: 0;
+  left: 0;
   background-color: rgba(30, 30, 30, 0.9);
   width: 100%;
   height: 100%;
@@ -248,10 +257,20 @@ main {
   content: "";
   position: absolute;
   top: 0;
+  left: 0;
   background-color: rgba(30, 30, 30, 0.9);
   width: 100%;
   height: 100%;
 }
+
+.hidden:checked ~ span {
+	display: block;
+}
+
+
+
+
+
 
 
 /* Footer */
