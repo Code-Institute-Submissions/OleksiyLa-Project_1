@@ -186,29 +186,19 @@ header .nav-item a:hover {
 /* Main */
 main {
   flex-grow: 1;
-  /* padding: 15px; */
-  /* margin: 10vh 0; */
   position: relative;
   text-align: center;
 }
 
-/* main::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(30, 30, 30, 0.6);
-  width: 100%;
-  height: 100%;
-} */
-
-#reasons-learn-programming-with-us-section {
+#reasons-learn-programming-with-us {
   background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
   position: relative;
   margin-top: 10vh;
   padding: 1rem;
+  font-size: 0.9rem;
 }
 
-#reasons-learn-programming-with-us-section::after {
+#reasons-learn-programming-with-us::after {
   content: "";
   position: absolute;
   top: 0;
@@ -218,10 +208,13 @@ main {
   height: 100%;
 }
 
+#reasons-learn-programming-with-us ul li {
+  padding: 1rem 0;
+}
+
 .shevron-icon {
-  width: 1rem;
+  width: 0.5rem;
   fill: #ffffff;
-  color: #ffffff;
 }
 
 .main-wrapper {
@@ -229,6 +222,13 @@ main {
   height: 100%;
 	width: 100%;
   z-index: 10;
+}
+
+.hidden:checked ~ p {
+	display: block;
+}
+.hidden:checked ~ label > svg {
+	transform: rotate(90deg);
 }
 
 /* Table section */
@@ -289,14 +289,6 @@ td {
   width: 100%;
   height: 100%;
 }
-
-.hidden:checked ~ span {
-	display: block;
-}
-
-
-
-
 
 
 
