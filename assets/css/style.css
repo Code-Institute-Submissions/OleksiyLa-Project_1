@@ -212,6 +212,11 @@ main {
   padding: 1rem 0;
 }
 
+#reasons-learn-programming-with-us p {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 1rem;
+}
+
 .shevron-icon {
   width: 0.5rem;
   fill: #ffffff;
@@ -268,7 +273,7 @@ th {
 }
 
 td {
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
 }
 
