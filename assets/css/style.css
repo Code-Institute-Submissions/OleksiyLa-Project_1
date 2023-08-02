@@ -35,9 +35,47 @@ a {
 	text-decoration: none;
 }
 
+.active {
+	text-decoration: underline;
+	color: inherit;
+}
+
+/* Header */
 header {
   flex-basis: 50vh;
   background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
+}
+
+header nav {
+	position: fixed;
+	top: 30%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 2rem;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-transform: capitalize;
+	user-select: none;
+}
+
+header .nav-item {
+	border-bottom: 1px solid #d6cccc;
+}
+
+header .nav-item a {
+  color: #d6cccc;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 1rem 0;
+	user-select: none;
+}
+
+header .nav-item a:hover {
+  color: rgb(237, 237, 16);
+  transform: scale(1.2);
+  transition: color 0.2s, transform 0.2s;
+
 }
 
 /* Logo  */
