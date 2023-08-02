@@ -11,9 +11,51 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+	text-align: center;
+	color: #d6cccc;
+	padding: 1rem;
+}
+
+h2 {
+	text-align: center;
+	color: #d6cccc;
+	padding: 1rem;
+}
+
+sup {
+	font-style: italic;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
 header {
   flex-basis: 50vh;
   background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
+}
+
+/* Logo  */
+#logo-svg {
+  width: 3rem;
+  margin-right: 10px;
+  fill: #ffffff;
+  margin: 1rem;
+  animation: rotateAnimation 3s infinite linear;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 main {
