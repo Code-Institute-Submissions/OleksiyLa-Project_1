@@ -40,6 +40,16 @@ a {
 	color: inherit;
 }
 
+.overlay {
+  content: "";
+  position: fixed;
+  top: 0;
+  background-color: rgba(30, 30, 30, 0.6);
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
 /* Header */
 header {
   flex-basis: 50vh;
@@ -73,6 +83,7 @@ header nav {
 	text-transform: capitalize;
 	user-select: none;
   display: none;
+  z-index: 99;
 }
 
 header .nav-item {
@@ -97,11 +108,13 @@ header .nav-item a:hover {
 
 /* Logo  */
 #logo-svg {
+  position: fixed;
+  left: 1rem;
+	top: 1rem;
   width: 3rem;
-  margin-right: 10px;
   fill: #ffffff;
-  margin: 1rem;
   animation: rotateAnimation 3s infinite linear;
+  z-index: 99;
 }
 
 @keyframes rotateAnimation {
@@ -125,6 +138,7 @@ header .nav-item a:hover {
 	right: 2rem;
 	top: 1rem;
 	cursor: pointer;
+  z-index: 99;
 }
 
 #cancel-menu-svg {
@@ -135,9 +149,14 @@ header .nav-item a:hover {
 	top: 1rem;
 	display: none;
 	cursor: pointer;
+  z-index: 99;
 }
 
 #toggle-nav:checked ~ nav {
+	display: block;
+}
+
+#toggle-nav:checked ~ .overlay {
 	display: block;
 }
 
