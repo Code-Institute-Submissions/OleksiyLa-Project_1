@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 200vh;
+}
+
+header {
+  background-color: blue;
+  flex-basis: 40vh;
+}
+
+main {
+  background-color: blueviolet;
+  flex-grow: 1;
+}
+
+footer {
+ background-color: brown;
+ flex-basis: 15vh;
+}
