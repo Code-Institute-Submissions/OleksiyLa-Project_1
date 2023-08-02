@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Raleway", "Open Sans", sans-serif;
 }
 
 h1 {
@@ -168,6 +171,9 @@ header .nav-item a:hover {
 #toggle-nav:checked ~ label > #cancel-menu-svg {
 	display: block;
 }
+
+
+
 
 /* Main */
 main {
