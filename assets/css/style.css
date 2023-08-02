@@ -205,6 +205,7 @@ main {
   background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
   position: relative;
   margin-top: 10vh;
+  padding: 1rem;
 }
 
 #reasons-learn-programming-with-us-section::after {
@@ -230,6 +231,7 @@ main {
   z-index: 10;
 }
 
+/* Table section */
 #top-programming-languages-table {
   background: url("../images/pankaj-patel-_SgRNwAVNKw-unsplash.jpg") no-repeat center center/cover;
   position: relative;
@@ -246,6 +248,31 @@ main {
   height: 100%;
 }
 
+caption {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+table {
+  padding: 1rem;
+}
+
+th, td {
+  padding: 0  0 1rem;
+  border: #000000 solid 3px;
+}
+
+th {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+td {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Students feedback section */
 #students-feedbacks {
   background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
   position: relative;
