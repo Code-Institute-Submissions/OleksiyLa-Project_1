@@ -8,12 +8,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 200vh;
+  min-height: 100vh;
 }
 
 header {
-  background-color: blue;
-  flex-basis: 40vh;
+  flex-basis: 50vh;
+  background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
 }
 
 main {
