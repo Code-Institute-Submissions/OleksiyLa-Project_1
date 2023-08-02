@@ -56,6 +56,7 @@ header nav {
 	background-color: rgba(0, 0, 0, 0.8);
 	text-transform: capitalize;
 	user-select: none;
+  display: none;
 }
 
 header .nav-item {
@@ -96,6 +97,43 @@ header .nav-item a:hover {
   }
 }
 
+/* Burger menu */
+#toggle-nav {
+	display: none;
+}
+
+#burger-menu-svg {
+	width: 2rem;
+	fill: #ffffff;
+	position: fixed;
+	right: 2rem;
+	top: 1rem;
+	cursor: pointer;
+}
+
+#cancel-menu-svg {
+	width: 2rem;
+	fill: #ffffff;
+	position: fixed;
+	right: 2rem;
+	top: 1rem;
+	display: none;
+	cursor: pointer;
+}
+
+#toggle-nav:checked ~ nav {
+	display: block;
+}
+
+#toggle-nav:checked ~ #toggle-nav-label > #burger-menu-svg {
+	display: none;
+}
+
+#toggle-nav:checked ~ label > #cancel-menu-svg {
+	display: block;
+}
+
+/* Main */
 main {
   background-color: blueviolet;
   flex-grow: 1;
