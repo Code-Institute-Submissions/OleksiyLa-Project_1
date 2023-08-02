@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #d6cccc;
 }
 
 body {
@@ -11,7 +12,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: "Raleway", "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d6cccc;
 }
 
 h1 {
@@ -19,12 +21,14 @@ h1 {
 	color: #d6cccc;
 	padding: 1rem;
   margin: 12vh 0 5vh;
+  font-family: "Raleway", "Open Sans", sans-serif;
 }
 
-h2 {
+h2, p {
 	text-align: center;
 	color: #d6cccc;
 	padding: 1rem;
+  font-family: "Raleway", "Open Sans", sans-serif;
 }
 
 sup {
@@ -44,6 +48,10 @@ a {
 	color: inherit;
 }
 
+.hidden {
+  display: none;
+}
+
 .overlay {
   content: "";
   position: fixed;
@@ -57,7 +65,7 @@ a {
 /* Header */
 header {
   flex-basis: 50vh;
-  background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
+  background: url("../images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
 }
 
 header::after {
@@ -177,12 +185,77 @@ header .nav-item a:hover {
 
 /* Main */
 main {
-  background-color: blueviolet;
   flex-grow: 1;
+  /* padding: 15px; */
+  /* margin: 10vh 0; */
+  position: relative;
 }
+
+/* main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-color: rgba(30, 30, 30, 0.6);
+  width: 100%;
+  height: 100%;
+} */
+
+#reasons-learn-programming-with-us-section {
+  background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
+  position: relative;
+  margin-top: 10vh;
+}
+
+#reasons-learn-programming-with-us-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-color: rgba(30, 30, 30, 0.9);
+  width: 100%;
+  height: 100%;
+}
+
+.main-wrapper {
+  position: relative;
+  height: 100%;
+	width: 100%;
+  z-index: 10;
+}
+
+#top-programming-languages-table {
+  background: url("../images/pankaj-patel-_SgRNwAVNKw-unsplash.jpg") no-repeat center center/cover;
+  position: relative;
+  margin-top: 10vh;
+}
+
+#top-programming-languages-table::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-color: rgba(30, 30, 30, 0.9);
+  width: 100%;
+  height: 100%;
+}
+
+#students-feedbacks {
+  background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
+  position: relative;
+  height: 100px;
+  margin: 10vh 0;
+}
+
+#students-feedbacks::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-color: rgba(30, 30, 30, 0.9);
+  width: 100%;
+  height: 100%;
+}
+
 
 /* Footer */
 footer {
- background-color: brown;
+ background-color: #000000;
  flex-basis: 15vh;
 }
