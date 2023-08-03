@@ -124,7 +124,7 @@ header .nav-item a:hover {
   left: 1rem;
 	top: 1rem;
   width: 3rem;
-  fill: #ffffff;
+  fill: #d6cccc;
   animation: rotateAnimation 3s infinite linear;
   z-index: 99;
 }
@@ -142,7 +142,7 @@ header .nav-item a:hover {
 
 #burger-menu-svg {
 	width: 2rem;
-	fill: #ffffff;
+	fill: #d6cccc;
 	position: fixed;
 	right: 2rem;
 	top: 1rem;
@@ -152,7 +152,7 @@ header .nav-item a:hover {
 
 #cancel-menu-svg {
 	width: 2rem;
-	fill: #ffffff;
+	fill: #d6cccc;
 	position: fixed;
 	right: 2rem;
 	top: 1rem;
@@ -398,14 +398,14 @@ footer p {
 }
 
 .social-svg {
-  fill: #ffffff;
+  fill: #d6cccc;
   width: 1.5rem;
   height: 1.5rem;
   margin: 0 0.3rem;
 }
 
 .phone-svg {
-  fill: #ffffff;
+  fill: #d6cccc;
   width: 1.5rem;
   height: 1.5rem;
 }
