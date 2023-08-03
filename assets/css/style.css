@@ -386,8 +386,9 @@ footer {
   background-color: #000000;
   flex-basis: 15vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 1rem;
 }
 
 footer p {
