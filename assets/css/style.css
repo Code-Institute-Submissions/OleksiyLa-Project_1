@@ -220,6 +220,13 @@ main {
   margin-top: 3rem;
 }
 
+#reasons-to-learn-with-us-ad a {
+  display: block;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .shevron-icon {
   width: 0.5rem;
   fill: #d6cccc;
