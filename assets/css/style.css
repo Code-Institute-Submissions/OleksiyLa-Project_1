@@ -331,7 +331,6 @@ td {
 }
 
 .ava-img {
-  background: url("../ava/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg") no-repeat center center/cover;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -356,6 +355,30 @@ td {
   color: #000000;
 }
 
+/* Avatar using background image */
+#tim-smith-ava {
+  background: url("../ava/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg") no-repeat center center/cover;
+}
+
+#maria-adel-ava {
+  background: url("../ava/christopher-campbell-rDEOVtE7vOs-unsplash.jpg") no-repeat center center/cover; 
+}
+
+#alex-morgan-ava {
+  background: url("../ava/foto-sushi-6anudmpILw4-unsplash.jpg") no-repeat center center/cover; 
+}
+
+#minh-pham-ava {
+  background: url("../ava/minh-pham-5yENNRbbat4-unsplash.jpg") no-repeat center center/cover;
+}
+
+#alla-sigmund-ava {
+  background: url("../ava/sigmund-jzz_3jWMzHA-unsplash.jpg") no-repeat center center/cover;
+}
+
+#allan-jonson-ava {
+  background: url("../ava/ryunosuke-kikuno-cqtw4QCfbQg-unsplash.jpg") no-repeat center center/cover;
+}
 
 /* Footer */
 footer {
