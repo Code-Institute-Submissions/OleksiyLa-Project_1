@@ -230,6 +230,12 @@ main {
 .shevron-icon {
   width: 0.5rem;
   fill: #d6cccc;
+  margin-left: 5px;
+}
+
+.reasons-to-choose-us-label {
+  display: flex;
+  justify-content: center;
 }
 
 .main-wrapper {
