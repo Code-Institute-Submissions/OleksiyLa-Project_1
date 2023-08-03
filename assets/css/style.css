@@ -270,13 +270,13 @@ th, td {
 }
 
 th {
-  background-color: #ffffff;
+  background-color: #d6cccc;
   color: #000000;
 }
 
 td {
   background-color: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
+  color: #d6cccc;
 }
 
 /* Students's feedback */
