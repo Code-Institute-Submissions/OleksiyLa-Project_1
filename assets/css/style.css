@@ -382,6 +382,29 @@ td {
 
 /* Footer */
 footer {
- background-color: #000000;
- flex-basis: 15vh;
+  position: relative;
+  background-color: #000000;
+  flex-basis: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5px;
+}
+
+.social-svg {
+  fill: #ffffff;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 0.3rem;
+}
+
+.phone-svg {
+  fill: #ffffff;
+  width: 1.5rem;
+  height: 1.5rem;
 }
