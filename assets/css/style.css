@@ -236,6 +236,16 @@ main {
 .reasons-to-choose-us-label {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.reasons-to-choose-us-label::after {
+  content: "";
+  width: 90%;
+  height: 1px;
+  position: absolute;
+  background-color: rgba(214, 204, 204, 0.5);
+  bottom: -5px;
 }
 
 .main-wrapper {
