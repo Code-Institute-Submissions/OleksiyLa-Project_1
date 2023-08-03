@@ -241,10 +241,10 @@ main {
 
 .reasons-to-choose-us-label::after {
   content: "";
-  width: 90%;
+  width: 70%;
   height: 1px;
   position: absolute;
-  background-color: rgba(214, 204, 204, 0.5);
+  background-color: rgba(214, 204, 204, 0.3);
   bottom: -5px;
 }
 
