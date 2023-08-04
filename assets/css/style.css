@@ -359,7 +359,7 @@ td {
 
 .student-card {
   background-color: var(--main-color);
-  border: 1px solid var(--highlight-color);
+  box-shadow: var(--dark-color) 1px 1px 3px;;
   border-radius: 5px;
   padding: 10px;
   display: grid;
