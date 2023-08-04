@@ -540,22 +540,13 @@ footer .copyright-wrapper {
   header nav {
     display: block;
     top: 0;
+    left: 15vw;
+    right: 15vw;
   }
 
   header nav ul {
     display: flex;
-    justify-content: end;
-  }
-
-  #logo-svg {
-    z-index: 999;
-    top: 1.2rem;
-    left: 2rem;
-    width: 3rem;
-  }
-
-  header nav ul li {
-    margin: 0 2.5rem;
+    justify-content: space-around;
   }
 
   header .nav-item a {
