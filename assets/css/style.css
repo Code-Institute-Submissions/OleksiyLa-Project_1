@@ -350,6 +350,7 @@ td {
 }
 
 .ava {
+  align-self: self-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
