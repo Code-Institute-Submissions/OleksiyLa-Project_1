@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+  --main-color: #d6cccc;
+  --logo-toggle-icons-color: #ffffff;
+  --highlight-color: #eded10;
+  --overlay-color: rgba(30, 30, 30, 0.9);
+  --full-screen-overlay-color: rgba(30, 30, 30, 0.6);
+  --background-for-text-color: rgba(0, 0, 0, 0.5);
+  --dark-color: #000000;
+  --nav-menu-background-color: rgba(0, 0, 0, 0.8);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #d6cccc;
+  color: var(--main-color);
 }
 
 body {
@@ -13,12 +24,12 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  background-color: #d6cccc;
+  background-color: var(--main-color);
 }
 
 h1 {
 	text-align: center;
-	color: #d6cccc;
+	color: var(--main-color);
 	padding: 1rem;
   margin: 12vh 0 5vh;
   font-family: "Raleway", "Open Sans", sans-serif;
@@ -26,7 +37,7 @@ h1 {
 
 h2, p {
 	text-align: center;
-	color: #d6cccc;
+	color: var(--main-color);
 	padding: 1rem;
   font-family: "Raleway", "Open Sans", sans-serif;
 }
@@ -51,7 +62,7 @@ a {
   content: "";
   position: fixed;
   top: 0;
-  background-color: rgba(30, 30, 30, 0.6);
+  background-color: var(--full-screen-overlay-color);
   width: 100vw;
   height: 100vh;
   display: none;
@@ -67,7 +78,7 @@ header::after {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(30, 30, 30, 0.6);
+  background-color: var(--overlay-color);
   width: 100%;
   height: 50vh;
 }
@@ -86,7 +97,7 @@ header nav {
 	right: 0;
 	text-align: center;
 	font-size: 2rem;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: var(--nav-menu-background-color);
 	text-transform: capitalize;
 	user-select: none;
   display: none;
@@ -94,11 +105,11 @@ header nav {
 }
 
 header .nav-item {
-	border-bottom: 1px solid #d6cccc;
+	border-bottom: 1px solid var(--main-color);
 }
 
 header .nav-item a {
-  color: #d6cccc;
+  color: var(--main-color);
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -107,21 +118,21 @@ header .nav-item a {
 }
 
 header .nav-item a:hover {
-  color: rgb(237, 237, 16);
+  color: var(--highlight-color);
   transform: scale(1.2);
   transition: color 0.2s, transform 0.2s;
 
 }
 header .nav-item .active {
-	color: rgb(237, 237, 16);
+	color: var(--highlight-color);
 }
 
 header .nav-item.active {
-  border-bottom: 1px solid rgb(237, 237, 16);
+  border-bottom: 1px solid var(--highlight-color);
 }
 
 header .nav-item:hover {
-	border-bottom: 1px solid rgb(237, 237, 16);
+	border-bottom: 1px solid var(--highlight-color);
   transition: border-bottom 0.2s, transform 0.2s;
 }
 
@@ -131,7 +142,7 @@ header .nav-item:hover {
   left: 1rem;
 	top: 1rem;
   width: 3rem;
-  fill: #ffffff;
+  fill: var(--logo-toggle-icons-color);
   animation: rotateAnimation 3s infinite linear;
   z-index: 99;
 }
@@ -149,7 +160,7 @@ header .nav-item:hover {
 
 #burger-menu-svg {
 	width: 2rem;
-  fill: #ffffff;
+  fill: var(--logo-toggle-icons-color);
 	position: fixed;
 	right: 2rem;
 	top: 1rem;
@@ -159,7 +170,7 @@ header .nav-item:hover {
 
 #cancel-menu-svg {
 	width: 2rem;
-  fill: #ffffff;
+  fill: var(--logo-toggle-icons-color);
 	position: fixed;
 	right: 2rem;
 	top: 1rem;
@@ -209,7 +220,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(30, 30, 30, 0.9);
+  background-color: var(--overlay-color);
   width: 100%;
   height: 100%;
 }
@@ -219,7 +230,7 @@ main {
 }
 
 #reasons-learn-programming-with-us p[class="hidden"] {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--background-for-text-color);
   margin-top: 1rem;
 }
 
@@ -231,12 +242,12 @@ main {
   display: block;
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--background-for-text-color);
 }
 
 .shevron-icon {
   width: 0.5rem;
-  fill: #d6cccc;
+  fill: var(--main-color);
   margin-left: 5px;
 }
 
@@ -251,7 +262,7 @@ main {
   width: 70%;
   height: 1px;
   position: absolute;
-  background-color: rgba(214, 204, 204, 0.3);
+  background-color: var(--main-color);
   bottom: -5px;
 }
 
@@ -282,7 +293,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(30, 30, 30, 0.9);
+  background-color: var(--overlay-color);
   width: 100%;
   height: 100%;
 }
@@ -298,24 +309,24 @@ table {
 
 th, td {
   padding: 1rem 0;
-  border: #000000 solid 3px;
+  border: var(--dark-color) solid 3px;
   vertical-align: middle;
   text-align: center;
 }
 
 th {
-  background-color: #d6cccc;
-  color: #000000;
+  background-color: var(--main-color);
+  color: var(--dark-color);
 }
 
 td {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #d6cccc;
+  background-color: var(--background-for-text-color);
+  color: var(--main-color);
 }
 
 /* Students's feedback */
 #students-feedback {
-  background: rgba(30, 30, 30, 0.9);
+  background: var(--overlay-color);
   position: relative;
   margin: 10vh 0;
   padding: 1rem;
@@ -329,8 +340,8 @@ td {
 }
 
 .student-card {
-  background-color: rgba(241, 232, 232, 0.6);
-  border: 1px solid #d6cccc;
+  background-color: var(--main-color);
+  border: 1px solid var(--highlight-color);
   border-radius: 5px;
   padding: 10px;
   display: grid;
@@ -342,14 +353,14 @@ td {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #000000;
+  color: var(--dark-color);
 }
 
 .ava-img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  box-shadow: #000000 1px 1px 3px;
+  box-shadow: var(--dark-color) 1px 1px 3px;
 }
 
 .ava-name {
@@ -357,17 +368,17 @@ td {
   width: 50px;
   line-height: 1;
   margin-top: 3px;
-  color: #000000;
+  color: var(--dark-color);
 }
 
 .student-card-course-title {
-  color: #000000;
+  color: var(--dark-color);
   font-size: 1.5rem;
 }
 
 .student-card-quote {
   grid-column: 1/3;
-  color: #000000;
+  color: var(--dark-color);
 }
 
 /* Avatar using background image */
@@ -398,7 +409,7 @@ td {
 /* Footer */
 footer {
   position: relative;
-  background-color: #000000;
+  background-color: var(--dark-color);
   flex-basis: 30vh;
   display: flex;
   justify-content: space-between;
@@ -419,14 +430,14 @@ footer .copyright-wrapper {
 
 
 .social-svg {
-  fill: #d6cccc;
+  fill: var(--main-color);
   width: 1.5rem;
   height: 1.5rem;
   margin: 0 4vw;
 }
 
 .phone-svg {
-  fill: #d6cccc;
+  fill: var(--main-color);
   width: 1.5rem;
   height: 1.5rem;
   margin: 0 4vw;
