@@ -19,7 +19,6 @@
 }
 
 body {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -30,7 +29,6 @@ body {
 h1 {
 	text-align: center;
 	color: var(--main-color);
-	padding: 1rem;
   margin: 12vh 0 5vh;
   font-family: "Raleway", "Open Sans", sans-serif;
 }
@@ -243,6 +241,7 @@ main {
   margin-top: 1rem;
   padding: 1rem;
   background-color: var(--background-for-text-color);
+  cursor: pointer;
 }
 
 .shevron-icon {
@@ -255,6 +254,10 @@ main {
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+.reasons-to-choose-us-label:hover {
+  cursor: pointer;
 }
 
 .reasons-to-choose-us-label::after {
@@ -273,11 +276,17 @@ main {
   z-index: 10;
 }
 
-.hidden:checked ~ p {
+input.hidden:checked ~ p {
 	display: block;
 }
-.hidden:checked ~ label > svg {
+
+input.hidden:checked ~ label > svg {
 	transform: rotate(90deg);
+}
+
+p.hidden {
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* Table section */
