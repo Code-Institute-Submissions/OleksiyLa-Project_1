@@ -254,6 +254,8 @@ main {
   display: flex;
   justify-content: center;
   position: relative;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .reasons-to-choose-us-label:hover {
@@ -262,7 +264,7 @@ main {
 
 .reasons-to-choose-us-label::after {
   content: "";
-  width: 70%;
+  width: 100%;
   height: 1px;
   position: absolute;
   background-color: var(--main-color);
