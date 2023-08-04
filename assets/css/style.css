@@ -280,8 +280,17 @@ input.hidden:checked ~ p {
 	display: block;
 }
 
-input.hidden:checked ~ label > svg {
+input.hidden:checked ~ .reasons-to-choose-us-label {
+  color: var(--highlight-color);
+}
+
+input.hidden:checked ~ .reasons-to-choose-us-label::after {
+  background-color: var(--highlight-color);
+}
+
+input.hidden:checked ~ .reasons-to-choose-us-label > svg {
 	transform: rotate(90deg);
+  fill: var(--highlight-color);
 }
 
 p.hidden {
