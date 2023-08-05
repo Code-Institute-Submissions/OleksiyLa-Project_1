@@ -428,24 +428,52 @@ td {
 }
 
 /* Courses courses.html */
-main {
-  background-color: #ffffff;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
+.courses-section {
+  background-color: var(--dark-color);
+  position: relative;
+  min-height: 60vh;
+  padding: 1rem;
+  border-bottom: 1px solid var(--main-color);
 }
 
 .course-options {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
+  width: 7rem;
+  height: 20rem;
+  float: left;
 }
 
 .course-label {
   font-size: 1rem;
-  border: 1px solid var(--dark-color);
+  color: var(--dark-color);
   padding: 1rem;
-  width: 100%;
+  width: 7rem;
+  height: 4rem;
+  position: absolute;
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.java-label {
+  top: 0;
+  left: 0;
+}
+.c-sharp-label {
+  top: 4rem;
+  left: 0;
+}
+.javascript-label {
+  top: 8rem;
+  left: 0;
+}
+.python-label {
+  top: 12rem;
+  left: 0;
+}
+.php-label {
+  top: 16rem;
+  left: 0;
 }
 
 .courses-container {
@@ -453,20 +481,39 @@ main {
   min-height: 40vh;
 }
 
-input[id="java"]:checked + .course {
+input[id="java"]:checked ~ .course-java {
   display: block;
 }
-input[id="c#"]:checked + .course {
+input[id="java"]:checked + label {
+  background-color: var(--highlight-color);
+}
+
+input[id="c-sharp"]:checked ~ .course-c-sharp {
   display: block;
 }
-input[id="javascript"]:checked + .course {
+input[id="c-sharp"]:checked + label {
+  background-color: var(--highlight-color);
+}
+
+input[id="javascript"]:checked ~ .course-javascript {
   display: block;
 }
-input[id="python"]:checked + .course {
+input[id="javascript"]:checked + label {
+  background-color: var(--highlight-color);
+}
+
+input[id="python"]:checked ~ .course-python {
   display: block;
 }
-input[id="php"]:checked + .course {
+input[id="python"]:checked + label {
+  background-color: var(--highlight-color);
+}
+
+input[id="php"]:checked ~ .course-php {
   display: block;
+}
+input[id="php"]:checked + label {
+  background-color: var(--highlight-color);
 }
 
 /* enroll.html section */
