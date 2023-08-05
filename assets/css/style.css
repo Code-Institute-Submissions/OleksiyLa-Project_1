@@ -516,6 +516,11 @@ input[id="php"]:checked + label {
   background-color: var(--highlight-color);
 }
 
+/* instructors.html section */
+#instructors {
+  min-height: 50vh;
+}
+
 /* enroll.html section */
 form {
   display: flex;
