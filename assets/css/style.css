@@ -388,13 +388,14 @@ td {
   font-size: 0.7rem;
   width: 50px;
   line-height: 1;
-  margin-top: 3px;
+  margin-top: 1rem;
   color: var(--dark-color);
 }
 
 .student-card-course-title {
   color: var(--dark-color);
-  font-size: 1.5rem;
+  font-size: 2rem;
+  align-self: self-start;
 }
 
 .student-card-quote {
@@ -439,7 +440,7 @@ td {
   background: url("../ava/erica-lewis-W1M4v3oF-q0-unsplash.jpg") no-repeat center center/cover;
 }
 
-#mic-dam-ava {
+#monica-dam-ava {
   background: url("../ava/michael-dam-mEZ3PoFGs_k-unsplash.jpg") no-repeat center center/cover;
 }
 
