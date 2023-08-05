@@ -427,6 +427,48 @@ td {
   background: url("../ava/ryunosuke-kikuno-cqtw4QCfbQg-unsplash.jpg") no-repeat center center/cover;
 }
 
+/* Courses courses.html */
+main {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.course-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.course-label {
+  font-size: 1rem;
+  border: 1px solid var(--dark-color);
+  padding: 1rem;
+  width: 100%;
+}
+
+.courses-container {
+  background-color: red;
+  min-height: 40vh;
+}
+
+input[id="java"]:checked + .course {
+  display: block;
+}
+input[id="c#"]:checked + .course {
+  display: block;
+}
+input[id="javascript"]:checked + .course {
+  display: block;
+}
+input[id="python"]:checked + .course {
+  display: block;
+}
+input[id="php"]:checked + .course {
+  display: block;
+}
+
 /* enroll.html section */
 form {
   display: flex;
