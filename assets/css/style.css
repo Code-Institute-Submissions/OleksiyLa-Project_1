@@ -427,6 +427,26 @@ td {
   background: url("../ava/ryunosuke-kikuno-cqtw4QCfbQg-unsplash.jpg") no-repeat center center/cover;
 }
 
+#alexander-hip-ava {
+  background: url("../ava/alexander-hipp-iEEBWgY_6lA-unsplash.jpg") no-repeat center center/cover; 
+}
+
+#charles-deluvio-ava {
+  background: url("../ava/charlesdeluvio-kVg2DQTAK7c-unsplash.jpg") no-repeat center center/cover; 
+}
+
+#erica-lewis-ava {
+  background: url("../ava/erica-lewis-W1M4v3oF-q0-unsplash.jpg") no-repeat center center/cover;
+}
+
+#mic-dam-ava {
+  background: url("../ava/michael-dam-mEZ3PoFGs_k-unsplash.jpg") no-repeat center center/cover;
+}
+
+#mariano-nocetti-ava {
+  background: url("../ava/mariano-nocetti-96X_ZJuHGpw-unsplash.jpg") no-repeat center center/cover;
+}
+
 /* Courses courses.html */
 .courses-section {
   background-color: var(--dark-color);
