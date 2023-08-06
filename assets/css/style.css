@@ -453,7 +453,7 @@ td {
   background-color: var(--light-color);
 }
 
-#courses-section h2, h3, p {
+#courses-section h2, h3 {
   color: var(--dark-color);
 }
 
@@ -464,6 +464,7 @@ td {
 .course-description p {
   font-weight: 500;
   padding: 0.2rem;
+  color: var(--dark-color);
 }
 
 .course-options-style-tag {
