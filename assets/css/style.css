@@ -568,30 +568,41 @@ input[id="php"]:checked + label {
 }
 
 /* Enroll section */
+.form-title {
+  margin-top: 1rem;
+}
+
 form {
   display: flex;
   flex-direction: column;
-  margin: 1rem 0;
-  padding: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 2rem 0.5rem;
+  box-shadow: 0 0 10px var(--dark-color);
   background-color: var(--dark-color);
 }
 
 fieldset {
-  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0.5rem;
+  width: 95%;
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1rem;
+  width: 100%;
 }
 
 form label {
-  padding: 10px;
+  padding: 0.7rem;
 }
 
 form input {
+  font-weight: 700;
   width: 100%;
   padding: 0.5rem;
   border-radius: 5px;
@@ -599,20 +610,9 @@ form input {
   background-color: var(--main-color);
 }
 
-form button {
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: pointer;
-  width: 80%;
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 5px;
-  color: var(--dark-color);
-  background-color: var(--main-color);
-}
-
 form textarea {
-  width: 100%;
+  font-weight: 700;
+  width: 90%;
   padding: 1rem;
   border-radius: 5px;
   color: var(--dark-color);
@@ -620,8 +620,8 @@ form textarea {
 }
 
 .upload-cv-label {
-  width: 60%;
-  margin-bottom: 2rem;
+  width: 80%;
+  margin: 2rem;
   border-radius: 5px;
   cursor: pointer;
   color: var(--dark-color);
@@ -630,6 +630,23 @@ form textarea {
 
 .upload-cv-label:hover {
   transform: scale(1.1);
+}
+
+form button {
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  color: var(--dark-color);
+  background-color: var(--main-color);
+}
+
+form button:hover {
+  color: var(--dark-color);
+  background-color: var(--highlight-color);
 }
 
 /* Footer */
@@ -677,6 +694,9 @@ footer .copyright-wrapper {
 @media screen and (min-width: 576px) {
   header nav {
     font-size: 1.5rem;
+  }
+  .form-group {
+    width: 80%;
   }
 }
 
@@ -771,5 +791,22 @@ footer .copyright-wrapper {
 
   header > #header-wrapper > .overlay-full-screen#overlay-full-screen {
     display: none;
+  }
+
+  form {
+    margin: 1rem 10rem;
+  }
+
+  form input {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  form textarea {
+    font-size: 1rem;
+  }
+
+  .form-group {
+    width: 70%;
   }
 }
