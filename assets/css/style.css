@@ -8,6 +8,7 @@
   --full-screen-overlay-color: rgba(30, 30, 30, 0.6);
   --background-for-text-color: rgba(0, 0, 0, 0.5);
   --dark-color: #000000;
+  --light-color: #ffffff;
   --nav-menu-background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -45,7 +46,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin: 1rem;
 }
 
@@ -64,6 +65,7 @@ li {
 
 a {
 	text-decoration: none;
+  text-align: center;
 }
 
 /* Common classes */
@@ -147,13 +149,14 @@ a {
 .card-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .card {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  padding: 10px;
+  padding: 1rem;
+  margin: 0 0.4rem;
   border-radius: 5px;
   box-shadow: var(--dark-color) 1px 1px 3px;
   background-color: var(--main-color);
@@ -183,7 +186,6 @@ a {
 
 .card-title {
   align-self: self-start;
-  font-size: 2rem;
   color: var(--dark-color);
 }
 
@@ -411,7 +413,7 @@ td {
   font-size: 0.9rem;
   position: relative;
   margin: 10vh 0;
-  padding: 1rem;
+  padding: 1rem 0;
   background: var(--overlay-color);
 }
 
@@ -443,9 +445,14 @@ td {
 #courses-section {
   position: relative;
   min-height: 60vh;
+  margin: 1rem 0;
   padding: 1rem;
-  border-bottom: 1px solid var(--main-color);
-  background-color: var(--dark-color);
+  border: 1px solid var(--dark-color);
+  background-color: var(--light-color);
+}
+
+#courses-section h2, h3, .course-description {
+  color: var(--dark-color);
 }
 
 .course-options-style-tag {
@@ -460,11 +467,13 @@ td {
   align-items: center;
   position: absolute;
   font-size: 1rem;
+  cursor: pointer;
   width: 7rem;
   height: 4rem;
   padding: 1rem;
-  color: var(--dark-color);
-  background-color: var(--main-color);
+  border: 1px solid var(--light-color);
+  color: var(--light-color);
+  background-color: var(--dark-color);
 }
 
 .java-label {
@@ -488,16 +497,12 @@ td {
   left: 0;
 }
 
-.courses-container {
-  min-height: 40vh;
-  background-color: red;
-}
-
 input[id="java"]:checked ~ .course-java {
   display: block;
 }
 
 input[id="java"]:checked + label {
+  color: var(--dark-color);
   background-color: var(--highlight-color);
 }
 
@@ -506,6 +511,7 @@ input[id="c-sharp"]:checked ~ .course-c-sharp {
 }
 
 input[id="c-sharp"]:checked + label {
+  color: var(--dark-color);
   background-color: var(--highlight-color);
 }
 
@@ -514,6 +520,7 @@ input[id="javascript"]:checked ~ .course-javascript {
 }
 
 input[id="javascript"]:checked + label {
+  color: var(--dark-color);
   background-color: var(--highlight-color);
 }
 
@@ -522,6 +529,7 @@ input[id="python"]:checked ~ .course-python {
 }
 
 input[id="python"]:checked + label {
+  color: var(--dark-color);
   background-color: var(--highlight-color);
 }
 
@@ -530,6 +538,7 @@ input[id="php"]:checked ~ .course-php {
 }
 
 input[id="php"]:checked + label {
+  color: var(--dark-color);
   background-color: var(--highlight-color);
 }
 
@@ -562,8 +571,8 @@ input[id="php"]:checked + label {
 form {
   display: flex;
   flex-direction: column;
+  margin: 1rem 0;
   padding: 0.5rem;
-  border-bottom: 1px solid var(--main-color);
   background-color: var(--dark-color);
 }
 
@@ -583,22 +592,21 @@ form label {
 }
 
 form input {
+  width: 100%;
   padding: 0.5rem;
   border-radius: 5px;
-  width: 100%;
   color: var(--dark-color);
   background-color: var(--main-color);
 }
 
 form button {
-  padding: 1rem;
-  margin: 1rem;
-  font-weight: 700;
-  border-radius: 5px;
-  width: 100%;
-  cursor: pointer;
   font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
   width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
   color: var(--dark-color);
   background-color: var(--main-color);
 }
@@ -636,7 +644,7 @@ footer {
 
 footer .copyright-wrapper {
   position: absolute;
-  bottom: 0;
+  bottom: 0.5rem;
 }
 
 .copyright-wrapper {
