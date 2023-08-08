@@ -197,7 +197,7 @@ a {
 /* Header */
 header {
   flex-basis: 50vh;
-  background: url("../images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
+  background: url("../images/laptop_1.jpg") no-repeat center center/cover;
 }
 
 header::after {
@@ -274,7 +274,7 @@ main {
   position: relative;
   margin-top: 10vh;
   padding: 1rem;
-  background: url("..//images/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat center center/cover;
+  background: url("../images/laptop_2.jpg") no-repeat center center/cover;
 }
 
 #reasons-learn-programming-with-us::after {
@@ -373,7 +373,7 @@ p.hidden {
   margin-top: 10vh;
   padding: 1rem;
   position: relative;
-  background: url("../images/pankaj-patel-_SgRNwAVNKw-unsplash.jpg") no-repeat center center/cover;
+  background: url("../images/laptop_3.jpg") no-repeat center center/cover;
 }
 
 #top-programming-languages-table::after {
@@ -420,27 +420,27 @@ td {
 }
 
 #tim-smith-ava {
-  background: url("../ava/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg") no-repeat center center/cover;
+  background: url("../avatars/tim-smith.jpg") no-repeat center center/cover;
 }
 
 #maria-adel-ava {
-  background: url("../ava/christopher-campbell-rDEOVtE7vOs-unsplash.jpg") no-repeat center center/cover; 
+  background: url("../avatars/maria-adel.jpg") no-repeat center center/cover; 
 }
 
 #alex-morgan-ava {
-  background: url("../ava/foto-sushi-6anudmpILw4-unsplash.jpg") no-repeat center center/cover; 
+  background: url("../avatars/alex-morgan.jpg") no-repeat center center/cover; 
 }
 
-#minh-pham-ava {
-  background: url("../ava/minh-pham-5yENNRbbat4-unsplash.jpg") no-repeat center center/cover;
+#alexandra-blare-ava {
+  background: url("../avatars/alexandra-blare.jpg") no-repeat center center/cover;
 }
 
 #alla-sigmund-ava {
-  background: url("../ava/sigmund-jzz_3jWMzHA-unsplash.jpg") no-repeat center center/cover;
+  background: url("../avatars/alla-sigmund.jpg") no-repeat center center/cover;
 }
 
 #allan-jonson-ava {
-  background: url("../ava/ryunosuke-kikuno-cqtw4QCfbQg-unsplash.jpg") no-repeat center center/cover;
+  background: url("../avatars/alan-jonson.jpg") no-repeat center center/cover;
 }
 
 /* Courses section */
@@ -565,23 +565,23 @@ input[id="php"]:checked + label {
 }
 
 #alexander-hip-ava {
-  background: url("../ava/alexander-hipp-iEEBWgY_6lA-unsplash.jpg") no-repeat center center/cover; 
+  background: url("../avatars/alexander-hipp.jpg") no-repeat center center/cover; 
 }
 
 #charles-deluvio-ava {
-  background: url("../ava/charlesdeluvio-kVg2DQTAK7c-unsplash.jpg") no-repeat center center/cover; 
+  background: url("../avatars/charles-deluvio.jpg") no-repeat center center/cover; 
 }
 
 #erica-lewis-ava {
-  background: url("../ava/erica-lewis-W1M4v3oF-q0-unsplash.jpg") no-repeat center center/cover;
+  background: url("../avatars/erica-lewis.jpg") no-repeat center center/cover;
 }
 
 #monica-dam-ava {
-  background: url("../ava/michael-dam-mEZ3PoFGs_k-unsplash.jpg") no-repeat center center/cover;
+  background: url("../avatars/monica-dam.jpg") no-repeat center center/cover;
 }
 
 #mariano-nocetti-ava {
-  background: url("../ava/mariano-nocetti-96X_ZJuHGpw-unsplash.jpg") no-repeat center center/cover;
+  background: url("../avatars/mariano-nocetti.jpg") no-repeat center center/cover;
 }
 
 /* Enroll section */
