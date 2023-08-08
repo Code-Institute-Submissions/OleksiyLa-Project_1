@@ -197,7 +197,7 @@ a {
 /* Header */
 header {
   flex-basis: 50vh;
-  background: url("../images/laptop_1.webp") no-repeat center center/cover;
+  box-shadow: 0 0 5px var(--dark-color);
 }
 
 header::after {
@@ -206,7 +206,7 @@ header::after {
   top: 0;
   width: 100%;
   height: 50vh;
-  background-color: var(--overlay-color);
+  background-color: var(--dark-color);
 }
 
 #header-wrapper {
@@ -274,7 +274,6 @@ main {
   position: relative;
   margin-top: 10vh;
   padding: 1rem;
-  background: url("../images/laptop_2.webp") no-repeat center center/cover;
 }
 
 #reasons-learn-programming-with-us::after {
@@ -771,6 +770,18 @@ footer .copyright-wrapper {
 }
 
 @media screen and (min-width: 1200px) {
+  header {
+    background: url("../images/laptop_1.webp") no-repeat center center/cover;
+  }
+
+  header::after {
+    background: rgba(30, 30, 30, 0.9);
+  }
+
+  #reasons-learn-programming-with-us {
+    background: url("../images/laptop_2.webp") no-repeat center center/cover;
+  }
+
   #logo-svg {
     width: 5rem;
     left: 5rem;
