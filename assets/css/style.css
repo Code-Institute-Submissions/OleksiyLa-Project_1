@@ -1,5 +1,7 @@
+/* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Color variables */
 :root {
   --main-color: #d6cccc;
   --logo-toggle-icons-color: #ffffff;
@@ -12,6 +14,7 @@
   --nav-menu-background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* Initial or reset style */
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +22,7 @@
   color: var(--main-color);
 }
 
+/* Common tags styling */
 body {
   display: flex;
   flex-direction: column;
@@ -27,7 +31,6 @@ body {
   background-color: var(--main-color);
 }
 
-/* Common tags styling */
 h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -97,6 +100,7 @@ a {
   animation: rotateAnimation 3s infinite linear;
 }
 
+/* Logo animation */
 @keyframes rotateAnimation {
   from {
     transform: rotate(0deg);
@@ -128,20 +132,14 @@ a {
   fill: var(--logo-toggle-icons-color);
 }
 
-#toggle-nav:checked ~ nav {
-	display: block;
-}
-
-#toggle-nav:checked ~ .overlay-full-screen {
+#toggle-nav:checked ~ nav,
+#toggle-nav:checked ~ .overlay-full-screen,
+#toggle-nav:checked ~ label > #cancel-menu-svg {
 	display: block;
 }
 
 #toggle-nav:checked ~ #toggle-nav-label > #burger-menu-svg {
 	display: none;
-}
-
-#toggle-nav:checked ~ label > #cancel-menu-svg {
-	display: block;
 }
 
 /* Card style */
@@ -216,6 +214,7 @@ header::after {
   z-index: 99;
 }
 
+/* Navigation menu */
 header nav {
   display: none;
   font-size: 2rem;
@@ -484,46 +483,18 @@ td {
   left: 0;
 }
 
-input[id="java"]:checked ~ .course-java {
-  display: block;
-}
-
-input[id="java"]:checked + label {
-  color: var(--dark-color);
-  background-color: var(--highlight-color);
-}
-
-input[id="c-sharp"]:checked ~ .course-c-sharp {
-  display: block;
-}
-
-input[id="c-sharp"]:checked + label {
-  color: var(--dark-color);
-  background-color: var(--highlight-color);
-}
-
-input[id="javascript"]:checked ~ .course-javascript {
-  display: block;
-}
-
-input[id="javascript"]:checked + label {
-  color: var(--dark-color);
-  background-color: var(--highlight-color);
-}
-
-input[id="python"]:checked ~ .course-python {
-  display: block;
-}
-
-input[id="python"]:checked + label {
-  color: var(--dark-color);
-  background-color: var(--highlight-color);
-}
-
+input[id="java"]:checked ~ .course-java,
+input[id="c-sharp"]:checked ~ .course-c-sharp,
+input[id="javascript"]:checked ~ .course-javascript,
+input[id="python"]:checked ~ .course-python,
 input[id="php"]:checked ~ .course-php {
   display: block;
 }
 
+input[id="java"]:checked + label,
+input[id="c-sharp"]:checked + label,
+input[id="javascript"]:checked + label,
+input[id="python"]:checked + label,
 input[id="php"]:checked + label {
   color: var(--dark-color);
   background-color: var(--highlight-color);
@@ -654,10 +625,6 @@ footer .copyright-wrapper {
   margin: 0 4vw;
   fill: var(--main-color);
 }
-
-
-
-
 
 /* Media queries */
 @media screen and (min-width: 576px) {
