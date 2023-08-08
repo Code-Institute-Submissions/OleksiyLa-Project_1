@@ -272,7 +272,7 @@ main {
 #reasons-learn-programming-with-us {
   font-size: 0.9rem;
   position: relative;
-  margin-top: 10vh;
+  margin-top: 1rem;
   padding: 1rem;
 }
 
@@ -369,7 +369,7 @@ p.hidden {
 
 /* Table section */
 #top-programming-languages-table {
-  margin-top: 10vh;
+  margin-top: 1rem;
   padding: 1rem;
   position: relative;
   background: url("../images/laptop_3.webp") no-repeat center center/cover;
@@ -413,7 +413,7 @@ td {
 #students-feedback {
   font-size: 0.9rem;
   position: relative;
-  margin: 10vh 0;
+  margin: 1rem 0;
   padding: 1rem 0;
   background: var(--overlay-color);
 }
@@ -530,18 +530,15 @@ input[id="php"]:checked + label {
 }
 
 /* Instructors section */
-#instructors {
-  min-height: 50vh;
-  margin: 1rem 0;
-}
-
 #instructors h2 {
-  margin: 2rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 5px var(--dark-color);
 }
 
 /* Enroll section */
 .form-title {
-  margin-top: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 5px var(--dark-color);
 }
 
 form {
