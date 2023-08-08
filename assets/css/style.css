@@ -418,7 +418,7 @@ td {
 }
 
 /* Courses section */
-#courses-section {
+#courses-section-wrapper {
   position: relative;
   min-height: 60vh;
   margin: 1rem 0;
@@ -429,6 +429,11 @@ td {
 
 #courses-section h2, h3 {
   color: var(--dark-color);
+}
+
+#courses-section h2 {
+  margin: 1rem 0;
+  box-shadow: 0 0 5px var(--dark-color);
 }
 
 .course-description {
