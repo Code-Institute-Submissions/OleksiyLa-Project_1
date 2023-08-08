@@ -697,7 +697,7 @@ footer .copyright-wrapper {
     display: none;
   }
 
-  header nav {
+  #nav-menu {
     display: block;
     top: 0;
     left: 15vw;
