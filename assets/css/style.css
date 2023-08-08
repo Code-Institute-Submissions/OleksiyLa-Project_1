@@ -173,7 +173,7 @@ a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  box-shadow: var(--dark-color) 1px 1px 3px;
+  box-shadow: 0 0 5px var(--dark-color);
 }
 
 .ava-name {
@@ -418,30 +418,6 @@ td {
   background: var(--overlay-color);
 }
 
-#tim-smith-ava {
-  background: url("../avatars/tim-smith.webp") no-repeat center center/cover;
-}
-
-#maria-adel-ava {
-  background: url("../avatars/maria-adel.webp") no-repeat center center/cover; 
-}
-
-#alex-morgan-ava {
-  background: url("../avatars/alex-morgan.webp") no-repeat center center/cover; 
-}
-
-#alexandra-blare-ava {
-  background: url("../avatars/alexandra-blare.webp") no-repeat center center/cover;
-}
-
-#alla-sigmund-ava {
-  background: url("../avatars/alla-sigmund.webp") no-repeat center center/cover;
-}
-
-#allan-jonson-ava {
-  background: url("../avatars/alan-jonson.webp") no-repeat center center/cover;
-}
-
 /* Courses section */
 #courses-section {
   position: relative;
@@ -561,26 +537,6 @@ input[id="php"]:checked + label {
 
 #instructors h2 {
   margin: 2rem;
-}
-
-#alexander-hip-ava {
-  background: url("../avatars/alexander-hipp.webp") no-repeat center center/cover; 
-}
-
-#charles-deluvio-ava {
-  background: url("../avatars/charles-deluvio.webp") no-repeat center center/cover; 
-}
-
-#erica-lewis-ava {
-  background: url("../avatars/erica-lewis.webp") no-repeat center center/cover;
-}
-
-#monica-dam-ava {
-  background: url("../avatars/monica-dam.webp") no-repeat center center/cover;
-}
-
-#mariano-nocetti-ava {
-  background: url("../avatars/mariano-nocetti.webp") no-repeat center center/cover;
 }
 
 /* Enroll section */
