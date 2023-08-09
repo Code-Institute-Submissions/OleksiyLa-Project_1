@@ -233,6 +233,7 @@ a {
 /* Header */
 header {
   flex-basis: 50vh;
+  background: url("../images/laptop_1_mobile_optimized.jpg") no-repeat center center/cover;
 }
 
 header::after {
@@ -241,7 +242,7 @@ header::after {
   top: 0;
   width: 100%;
   height: 50vh;
-  background-color: var(--dark-color);
+  background-color: var(--overlay-color);
 }
 
 #header-wrapper {
@@ -307,6 +308,7 @@ main {
   position: relative;
   margin-top: 1rem;
   padding: 1rem;
+  background: url("../images/laptop_2_mobile_optimized.jpg") no-repeat center center/cover;
 }
 
 #reasons-learn-programming-with-us ul li {
