@@ -26,7 +26,6 @@
 body {
   min-height: 101vh;
   font-family: 'Open Sans', sans-serif;
-  background-color: var(--main-color);
 }
 
 h1, h2, h3 {
@@ -38,20 +37,6 @@ h1 {
   font-size: 1.8rem;
   margin-top: 15vh;
 }
-
-.heading-2 {
-  font-size: 1.5rem;
-	padding: 1rem;
-  margin: 1rem 0;
-  box-shadow: 0 0 0.5rem var(--dark-color);
-  color: var(--dark-color);
-}
-
-.heading-3 {
-  font-size: 1.3rem;
-  margin: 1rem;
-}
-
 p {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
@@ -71,15 +56,63 @@ a {
   text-align: center;
 }
 
+/* Common classes styling */
+.heading-2 {
+  font-size: 1.5rem;
+	padding: 1rem;
+  margin: 1rem 0;
+}
+
+.heading-3 {
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
 /* Common classes */
+/* Display properties */
 .hidden {
   display: none;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Colors */
 .dark-color {
   color: var(--dark-color);
 }
 
+.dark-background-color {
+  background-color: var(--dark-color);
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+.main-background-color {
+  background-color: var(--main-color);
+}
+
+.background-for-text-color {
+  background-color: var(--background-for-text-color);
+}
+
+.box-shadow-dark-color {
+  box-shadow: 0 0 0.5rem var(--dark-color);
+}
+
+/* Utils */
 .overlay-full-screen {
   content: "";
   width: 100vw;
@@ -104,19 +137,6 @@ a {
   z-index: 10;
   height: 100%;
 	width: 100%;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-direction-column {
-  flex-direction: column;
-}
-
-.flex-center {
-  justify-content: center;
-  align-items: center;
 }
 
 /* Logo  */
@@ -184,43 +204,35 @@ a {
   padding: 1rem;
   margin: 0 0.4rem;
   border-radius: 5px;
-  box-shadow: 0 0 10px var(--dark-color);
-  background-color: var(--main-color);
 }
 
 .avatar {
   align-self: self-start;
-  color: var(--dark-color);
 }
 
 .avatar-img {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  box-shadow: 0 0 0.5rem var(--dark-color);
 }
 
 .avatar-name {
   font-size: 1rem;
   margin: 0.5rem 0;
-  color: var(--dark-color);
 }
 
 .card-title {
   align-self: self-start;
-  color: var(--dark-color);
 }
 
 .card-content {
   grid-column: 1/3;
-  color: var(--dark-color);
   text-align: justify;
 }
 
 /* Header */
 header {
   flex-basis: 50vh;
-  box-shadow: 0 0 5px var(--dark-color);
 }
 
 header::after {
@@ -262,7 +274,6 @@ header .nav-item a {
 	height: 100%;
 	padding: 1rem 0;
 	user-select: none;
-  color: var(--main-color);
 }
 
 header .nav-item a:hover {
@@ -293,7 +304,6 @@ main {
 
 /* reasons-learn-programming-with-us section */
 #reasons-learn-programming-with-us {
-  /* font-size: 0.9rem; */
   position: relative;
   margin-top: 1rem;
   padding: 1rem;
@@ -303,9 +313,8 @@ main {
   padding: 1rem 0;
 }
 
-#reasons-learn-programming-with-us p[class="hidden"] {
+#reasons-learn-programming-with-us p[class="hidden background-for-text-color"] {
   margin-top: 1rem;
-  background-color: var(--background-for-text-color);
 }
 
 #reasons-to-learn-with-us-ad {
@@ -317,7 +326,6 @@ main {
   cursor: pointer;
   margin-top: 1rem;
   padding: 1rem;
-  background-color: var(--background-for-text-color);
 }
 
 #reasons-to-learn-with-us-ad a:hover {
@@ -384,28 +392,13 @@ caption {
   padding: 0.5rem;
 }
 
-/* table {
-  margin: 0 auto;
-} */
-
 th, td {
   padding: 1rem 0;
   border: var(--dark-color) solid 3px;
 }
 
-th {
-  color: var(--dark-color);
-  background-color: var(--main-color);
-}
-
-td {
-  color: var(--main-color);
-  background-color: var(--background-for-text-color);
-}
-
 /* Students's feedback section */
 #students-feedback {
-  /* font-size: 0.9rem; */
   position: relative;
   margin: 1rem 0;
   padding: 1rem 0;
@@ -419,11 +412,6 @@ td {
   margin: 1rem 0;
   padding: 1rem;
   border: 1px solid var(--dark-color);
-  background-color: var(--main-color);
-}
-
-#courses-section .heading-2, #courses-section .heading-3 {
-  color: var(--dark-color);
 }
 
 .course-description {
@@ -433,7 +421,6 @@ td {
 .course-description p {
   font-weight: 500;
   padding: 0.2rem;
-  color: var(--dark-color);
 }
 
 .course-options-style-tag {
@@ -451,7 +438,6 @@ td {
   padding: 1rem;
   border: 1px solid var(--light-color);
   color: var(--light-color);
-  background-color: var(--dark-color);
 }
 
 .java-label {
@@ -496,8 +482,6 @@ input[id="php"]:checked + label {
 form {
   margin-bottom: 1rem;
   padding: 2rem 0.5rem;
-  box-shadow: 0 0 10px var(--dark-color);
-  background-color: var(--dark-color);
 }
 
 fieldset {
@@ -519,8 +503,6 @@ form input {
   width: 100%;
   padding: 1rem;
   border-radius: 5px;
-  color: var(--dark-color);
-  background-color: var(--main-color);
 }
 
 form textarea {
@@ -528,16 +510,12 @@ form textarea {
   width: 90%;
   padding: 1rem;
   border-radius: 5px;
-  color: var(--dark-color);
-  background-color: var(--main-color);
 }
 
 .upload-cv-label {
   width: 80%;
   border-radius: 5px;
   cursor: pointer;
-  color: var(--dark-color);
-  background: var(--main-color);
 }
 
 .upload-cv-label:hover {
@@ -552,8 +530,6 @@ form button {
   margin: 0.5rem 0;
   padding: 1rem;
   border-radius: 5px;
-  color: var(--dark-color);
-  background-color: var(--main-color);
 }
 
 form button:hover {
@@ -567,7 +543,6 @@ footer {
   align-items: center;
   flex-basis: 30vh;
   position: relative;
-  background-color: var(--dark-color);
 }
 
 footer .copyright-wrapper {
