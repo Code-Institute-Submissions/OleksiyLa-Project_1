@@ -24,8 +24,6 @@
 
 /* Common tags styling */
 body {
-  display: flex;
-  flex-direction: column;
   min-height: 101vh;
   font-family: 'Open Sans', sans-serif;
   background-color: var(--main-color);
@@ -101,6 +99,26 @@ a {
   background-color: var(--overlay-color);
 }
 
+.wrapper {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+	width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
 /* Logo  */
 #logo-svg {
   position: fixed;
@@ -170,24 +188,20 @@ a {
   background-color: var(--main-color);
 }
 
-.ava {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.avatar {
   align-self: self-start;
   color: var(--dark-color);
 }
 
-.ava-img {
-  width: 50px;
-  height: 50px;
+.avatar-img {
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
-  box-shadow: 0 0 5px var(--dark-color);
+  box-shadow: 0 0 0.5rem var(--dark-color);
 }
 
-.ava-name {
-  font-size: 0.7rem;
-  width: 50px;
+.avatar-name {
+  font-size: 1rem;
   margin: 0.5rem 0;
   color: var(--dark-color);
 }
@@ -226,7 +240,7 @@ header::after {
 }
 
 /* Navigation menu */
-header nav {
+#nav-menu {
   font-size: 2rem;
 	text-transform: capitalize;
 	user-select: none;
@@ -279,7 +293,7 @@ main {
 
 /* reasons-learn-programming-with-us section */
 #reasons-learn-programming-with-us {
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   position: relative;
   margin-top: 1rem;
   padding: 1rem;
@@ -319,11 +333,9 @@ main {
 }
 
 .reasons-to-choose-us-label {
-  display: flex;
-  justify-content: center;
   font-size: 1.1rem;
   cursor: pointer;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -335,13 +347,6 @@ main {
   position: absolute;
   bottom: -5px;
   background-color: var(--main-color);
-}
-
-.main-wrapper {
-  position: relative;
-  z-index: 10;
-  height: 100%;
-	width: 100%;
 }
 
 input.hidden:checked ~ p {
@@ -367,7 +372,7 @@ p.hidden {
 }
 
 /* Table section */
-#top-programming-languages-table {
+#top-programming-languages-table-section {
   margin-top: 1rem;
   padding: 1rem;
   position: relative;
@@ -379,9 +384,9 @@ caption {
   padding: 0.5rem;
 }
 
-table {
+/* table {
   margin: 0 auto;
-}
+} */
 
 th, td {
   padding: 1rem 0;
@@ -400,7 +405,7 @@ td {
 
 /* Students's feedback section */
 #students-feedback {
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   position: relative;
   margin: 1rem 0;
   padding: 1rem 0;
@@ -414,10 +419,10 @@ td {
   margin: 1rem 0;
   padding: 1rem;
   border: 1px solid var(--dark-color);
-  background-color: var(--light-color);
+  background-color: var(--main-color);
 }
 
-#courses-section h2, h3 {
+#courses-section .heading-2, #courses-section .heading-3 {
   color: var(--dark-color);
 }
 
@@ -438,9 +443,6 @@ td {
 }
 
 .course-label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   font-size: 1rem;
   cursor: pointer;
@@ -490,13 +492,8 @@ input[id="php"]:checked + label {
   background-color: var(--highlight-color);
 }
 
-/* Instructors section */
-
 /* Enroll section */
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 1rem;
   padding: 2rem 0.5rem;
   box-shadow: 0 0 10px var(--dark-color);
@@ -504,28 +501,23 @@ form {
 }
 
 fieldset {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 2rem 0.5rem;
   width: 95%;
 }
 
 .form-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 1rem;
   width: 100%;
 }
 
 form label {
-  padding: 0.7rem;
+  padding: 1rem;
 }
 
 form input {
   font-weight: 700;
   width: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 5px;
   color: var(--dark-color);
   background-color: var(--main-color);
@@ -542,7 +534,6 @@ form textarea {
 
 .upload-cv-label {
   width: 80%;
-  margin: 2rem;
   border-radius: 5px;
   cursor: pointer;
   color: var(--dark-color);
@@ -558,7 +549,7 @@ form button {
   font-weight: 700;
   cursor: pointer;
   width: 100%;
-  margin: 1rem;
+  margin: 0.5rem 0;
   padding: 1rem;
   border-radius: 5px;
   color: var(--dark-color);
@@ -572,7 +563,6 @@ form button:hover {
 
 /* Footer */
 footer {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-basis: 30vh;
@@ -586,12 +576,9 @@ footer .copyright-wrapper {
 }
 
 .copyright-wrapper {
-  display: flex;
-  justify-content: center;
   width: 100%;
   padding: 0;
 }
-
 
 .social-svg {
   width: 1.5rem;
@@ -657,7 +644,7 @@ footer .copyright-wrapper {
     font-size: 2.5rem;
   }
 
-  h2 {
+  .heading-2 {
     font-size: 2rem;
   }
 
@@ -665,7 +652,7 @@ footer .copyright-wrapper {
     font-size: 1.5rem;
   }
 
-  #reasons-learn-programming-with-us .main-wrapper {
+  #reasons-learn-programming-with-us .wrapper {
     padding: 0 15vw;
   }
 }
