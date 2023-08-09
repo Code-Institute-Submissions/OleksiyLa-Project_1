@@ -643,6 +643,14 @@ footer .copyright-wrapper {
     background: url("../images/laptop_2.webp") no-repeat center center/cover;
   }
 
+  #top-programming-languages-table-section {
+    background: url("../images/laptop_3.webp") no-repeat center center/cover;
+  }
+
+  #students-feedback {
+    background: url("../images/laptop_4.webp") no-repeat center center/cover;
+  }
+
   #logo-svg {
     width: 5rem;
     left: 5rem;
