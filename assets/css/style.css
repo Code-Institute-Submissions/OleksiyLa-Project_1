@@ -259,7 +259,7 @@ header::after {
 	user-select: none;
 	position: fixed;
   z-index: 99;
-	top: calc(100% - 20rem);
+	top: calc(100% - 16rem - 4px);
 	left: 0;
 	right: 0;
   background-color: var(--nav-menu-background-color);
@@ -267,14 +267,14 @@ header::after {
 
 header .nav-item {
 	border-bottom: 1px solid var(--main-color);
-  height: 5rem;
 }
 
 header .nav-item a {
+  line-height: 0;
 	display: block;
 	width: 100%;
 	height: 100%;
-	padding: 1rem 0;
+	padding: 2rem 0;
 	user-select: none;
 }
 
@@ -302,14 +302,6 @@ main {
   flex-grow: 1;
   position: relative;
   text-align: center;
-}
-
-/* reasons-learn-programming-with-us section */
-#reasons-learn-programming-with-us {
-  /* position: relative;
-  margin-top: 1rem;
-  padding: 1rem; */
-  /* background: url("../images/laptop_2_mobile_optimized.webp") no-repeat center center/cover; */
 }
 
 .reasons-learn-programming-with-us-container {
@@ -390,13 +382,6 @@ p.hidden {
 }
 
 /* Table section */
-#top-programming-languages-table-section {
-  /* margin-top: 1rem;
-  padding: 1rem;
-  position: relative;
-  background: url("../images/laptop_3_mobile_optimized.webp") no-repeat center center/cover; */
-}
-
 .top-programming-languages-table-section-container {
   margin-top: 1rem;
   padding: 1rem;
