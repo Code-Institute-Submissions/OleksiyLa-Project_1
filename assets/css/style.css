@@ -580,8 +580,9 @@ footer .copyright-wrapper {
 
 /* Media queries */
 @media screen and (min-width: 576px) {
-  header nav {
-    font-size: 1.5rem;
+  #nav-menu {
+    left: 15vw;
+    right: 15vw;
   }
   .form-group {
     width: 80%;
@@ -589,11 +590,6 @@ footer .copyright-wrapper {
 }
 
 @media screen and (max-height: 500px) {
-  header nav {
-    font-size: 1rem;
-    left: 15vw;
-    right: 15vw;
-  }
   .social {
     margin-right: 2rem;
   }
@@ -675,8 +671,6 @@ footer .copyright-wrapper {
   #nav-menu {
     display: block;
     top: 0;
-    left: 15vw;
-    right: 15vw;
   }
 
   header nav ul {
