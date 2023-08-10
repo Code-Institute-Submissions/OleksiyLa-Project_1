@@ -232,7 +232,7 @@ a {
 
 /* Header */
 header {
-  flex-basis: 50vh;
+  flex-basis: 90vh;
   background: url("../images/laptop_1_mobile_optimized.webp") no-repeat center center/cover;
 }
 
@@ -241,13 +241,13 @@ header::after {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 50vh;
+  height: 90vh;
   background-color: var(--overlay-color);
 }
 
 #header-wrapper {
   position: absolute;
-  height: 50vh;
+  height: 90vh;
 	width: 100%;
   z-index: 99;
 }
@@ -305,6 +305,13 @@ main {
 
 /* reasons-learn-programming-with-us section */
 #reasons-learn-programming-with-us {
+  /* position: relative;
+  margin-top: 1rem;
+  padding: 1rem; */
+  /* background: url("../images/laptop_2_mobile_optimized.webp") no-repeat center center/cover; */
+}
+
+.reasons-learn-programming-with-us-container {
   position: relative;
   margin-top: 1rem;
   padding: 1rem;
@@ -383,6 +390,13 @@ p.hidden {
 
 /* Table section */
 #top-programming-languages-table-section {
+  /* margin-top: 1rem;
+  padding: 1rem;
+  position: relative;
+  background: url("../images/laptop_3_mobile_optimized.webp") no-repeat center center/cover; */
+}
+
+.top-programming-languages-table-section-container {
   margin-top: 1rem;
   padding: 1rem;
   position: relative;
@@ -400,7 +414,14 @@ th, td {
 }
 
 /* Students's feedback section */
-#students-feedback {
+/* #students-feedback {
+  position: relative;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  background: url("../images/laptop_4_mobile_optimized.webp") no-repeat center center/cover;
+} */
+
+.students-feedback-container {
   position: relative;
   margin: 1rem 0;
   padding: 1rem 0;
@@ -639,15 +660,15 @@ footer .copyright-wrapper {
     background: url("../images/laptop_1.webp") no-repeat center center/cover;
   }
 
-  #reasons-learn-programming-with-us {
+  .reasons-learn-programming-with-us-container {
     background: url("../images/laptop_2.webp") no-repeat center center/cover;
   }
 
-  #top-programming-languages-table-section {
+  .top-programming-languages-table-section-container {
     background: url("../images/laptop_3.webp") no-repeat center center/cover;
   }
 
-  #students-feedback {
+  .students-feedback-container {
     background: url("../images/laptop_4.webp") no-repeat center center/cover;
   }
 
