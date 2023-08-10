@@ -59,8 +59,8 @@ a {
 /* Common classes styling */
 .heading-2 {
   font-size: 1.5rem;
-	padding: 1rem;
-  margin: 1rem 0;
+	padding: 7vh 1vh;
+  margin: 6.5vh 0 4vh;
 }
 
 .heading-3 {
@@ -232,7 +232,7 @@ a {
 
 /* Header */
 header {
-  flex-basis: 90vh;
+  flex-basis: 75vh;
   background: url("../images/laptop_1_mobile_optimized.webp") no-repeat center center/cover;
 }
 
@@ -241,13 +241,13 @@ header::after {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 90vh;
+  height: 75vh;
   background-color: var(--overlay-color);
 }
 
 #header-wrapper {
   position: absolute;
-  height: 90vh;
+  height: 75vh;
 	width: 100%;
   z-index: 99;
 }
