@@ -327,12 +327,17 @@ main {
 
 #reasons-to-learn-with-us-ad a {
   display: block;
+  width: 80%;
   cursor: pointer;
-  margin-top: 1rem;
+  margin: 1rem auto 0;
   padding: 1rem;
 }
 
-#reasons-to-learn-with-us-ad a:hover {
+#reasons-to-learn-with-us-ad a {
+  font-size: 1.2rem;
+}
+
+#reasons-to-learn-with-us-ad a:hover, #reasons-to-learn-with-us-ad a:hover > strong {
   color: var(--highlight-color);
 }
 
@@ -639,6 +644,10 @@ footer .copyright-wrapper {
 
   .reasons-learn-programming-with-us-container {
     background: url("../images/laptop_2.webp") no-repeat center center/cover;
+  }
+
+  #reasons-to-learn-with-us-ad a {
+    font-size: 1.4rem;
   }
 
   .top-programming-languages-table-container {
