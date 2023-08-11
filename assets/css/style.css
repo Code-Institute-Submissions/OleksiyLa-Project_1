@@ -1,8 +1,8 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Color variables */
 :root {
+  /* Color variables */
   --main-color: #d6cccc;
   --logo-toggle-icons-color: #ffffff;
   --highlight-color: #eded10;
@@ -12,6 +12,8 @@
   --dark-color: #000000;
   --light-color: #ffffff;
   --nav-menu-background-color: rgba(0, 0, 0, 0.8);
+  /* Font size variables */
+  --text-font-size: 1.1rem;
 }
 
 /* Initial or reset style */
@@ -39,7 +41,7 @@ h1 {
 }
 p {
   font-family: "Raleway", sans-serif;
-  font-size: 1rem;
+  font-size: var(--text-font-size);
   padding: 1rem;
 }
 
@@ -64,7 +66,7 @@ a {
 }
 
 .heading-3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin: 1rem;
 }
 
@@ -316,7 +318,8 @@ main {
 }
 
 #reasons-learn-programming-with-us p[class="hidden background-for-text-color"] {
-  margin-top: 1rem;
+  width: 90%;
+  margin: 1rem auto;
 }
 
 #reasons-to-learn-with-us-ad {
@@ -343,7 +346,7 @@ main {
 }
 
 .reasons-to-choose-us-label {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   cursor: pointer;
   width: 90%;
   margin: 0 auto;
@@ -376,11 +379,6 @@ input.hidden:checked ~ .reasons-to-choose-us-label > svg {
   fill: var(--highlight-color);
 }
 
-p.hidden {
-  width: 90%;
-  margin: 0 auto;
-}
-
 /* Table section */
 .top-programming-languages-table-section-container {
   margin-top: 1rem;
@@ -390,23 +388,17 @@ p.hidden {
 }
 
 caption {
-  font-size: 1rem;
+  font-size: 1.4rem;
   padding: 0.5rem;
 }
 
 th, td {
+  font-size: 1.1rem;
   padding: 1rem 0;
   border: var(--dark-color) solid 3px;
 }
 
 /* Students's feedback section */
-/* #students-feedback {
-  position: relative;
-  margin: 1rem 0;
-  padding: 1rem 0;
-  background: url("../images/laptop_4_mobile_optimized.webp") no-repeat center center/cover;
-} */
-
 .students-feedback-container {
   position: relative;
   margin: 1rem 0;
@@ -428,6 +420,7 @@ th, td {
 }
 
 .course-description p {
+  font-size: 1.1rem;
   font-weight: 500;
   padding: 0.2rem;
 }
@@ -440,7 +433,7 @@ th, td {
 
 .course-label {
   position: absolute;
-  font-size: 1rem;
+  font-size: var(--text-font-size);
   cursor: pointer;
   width: 7rem;
   height: 4rem;
@@ -504,10 +497,12 @@ fieldset {
 }
 
 form label {
+  font-size: var(--text-font-size);
   padding: 1rem;
 }
 
 form input {
+  font-size: var(--text-font-size);
   font-weight: 700;
   width: 100%;
   padding: 1rem;
@@ -515,6 +510,7 @@ form input {
 }
 
 form textarea {
+  font-size: var(--text-font-size);
   font-weight: 700;
   width: 90%;
   padding: 1rem;
@@ -522,6 +518,7 @@ form textarea {
 }
 
 .upload-cv-label {
+  font-size: var(--text-font-size);
   width: 80%;
   border-radius: 5px;
   cursor: pointer;
@@ -532,7 +529,7 @@ form textarea {
 }
 
 form button {
-  font-size: 1rem;
+  font-size: var(--text-font-size);
   font-weight: 700;
   cursor: pointer;
   width: 100%;
@@ -589,57 +586,71 @@ footer .copyright-wrapper {
   }
 }
 
-@media screen and (max-height: 500px) {
-  .social {
-    margin-right: 2rem;
-  }
-  .social-svg {
-    margin: 0 2rem;
-  }
-  .phone-svg {
-    margin: 0 4rem;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .ava-img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .ava-name {
-    font-size: 1rem;
-    width: 100px;
-  }
-
-  .card-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  table {
-    width: 60%;
-  }
-
   h1 {
     font-size: 2.5rem;
-  }
-
-  .heading-2 {
-    font-size: 2rem;
   }
 
   label {
     font-size: 1.5rem;
   }
 
+  table {
+    width: 60%;
+  }
+
+  .heading-2 {
+    font-size: 2rem;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  
   #reasons-learn-programming-with-us .wrapper {
     padding: 0 15vw;
+  }
+
+  .reasons-to-choose-us-label {
+    width: 50vw;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  #logo-svg {
+    width: 5rem;
+    left: 5rem;
+  }
+  .card-container {
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+
   header {
     background: url("../images/laptop_1.webp") no-repeat center center/cover;
+  }
+
+  header #nav-menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header .nav-item a {
+    font-size: 2rem;
+  }
+
+  header > #header-wrapper > .overlay-full-screen#overlay-full-screen {
+    display: none;
+  }
+
+  #nav-menu {
+    display: block;
+    top: 0;
+  }
+
+  #toggle-nav-label {
+    display: none;
   }
 
   .reasons-learn-programming-with-us-container {
@@ -652,38 +663,6 @@ footer .copyright-wrapper {
 
   .students-feedback-container {
     background: url("../images/laptop_4.webp") no-repeat center center/cover;
-  }
-
-  #logo-svg {
-    width: 5rem;
-    left: 5rem;
-  }
-  .card-container {
-    padding: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-  }
-
-  #toggle-nav-label {
-    display: none;
-  }
-
-  #nav-menu {
-    display: block;
-    top: 0;
-  }
-
-  header nav ul {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  header .nav-item a {
-    font-size: 2rem;
-  }
-
-  header > #header-wrapper > .overlay-full-screen#overlay-full-screen {
-    display: none;
   }
 
   form {
