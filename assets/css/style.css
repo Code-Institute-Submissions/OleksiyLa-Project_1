@@ -312,11 +312,11 @@ main {
   background: url("../images/laptop_2_mobile_optimized.webp") no-repeat center center/cover;
 }
 
-#reasons-learn-programming-with-us ul li {
+#reasons-learn-programming-with-us-section ul li {
   padding: 1rem 0;
 }
 
-#reasons-learn-programming-with-us p[class="hidden background-for-text-color"] {
+#reasons-learn-programming-with-us-section p[class="hidden background-for-text-color"] {
   width: 90%;
   margin: 1rem auto;
 }
@@ -379,7 +379,7 @@ input.hidden:checked ~ .reasons-to-choose-us-label > svg {
 }
 
 /* Table section */
-.top-programming-languages-table-section-container {
+.top-programming-languages-table-container {
   padding: 1rem;
   position: relative;
   background: url("../images/laptop_3_mobile_optimized.webp") no-repeat center center/cover;
@@ -595,7 +595,7 @@ footer .copyright-wrapper {
     grid-template-columns: 1fr 1fr;
   }
   
-  #reasons-learn-programming-with-us .wrapper {
+  #reasons-learn-programming-with-us-section .wrapper {
     padding: 0 15vw;
   }
 
@@ -624,10 +624,6 @@ footer .copyright-wrapper {
     justify-content: space-around;
   }
 
-  header .nav-item a {
-    font-size: 2rem;
-  }
-
   header > #header-wrapper > .overlay-full-screen#overlay-full-screen {
     display: none;
   }
@@ -645,7 +641,7 @@ footer .copyright-wrapper {
     background: url("../images/laptop_2.webp") no-repeat center center/cover;
   }
 
-  .top-programming-languages-table-section-container {
+  .top-programming-languages-table-container {
     background: url("../images/laptop_3.webp") no-repeat center center/cover;
   }
 
