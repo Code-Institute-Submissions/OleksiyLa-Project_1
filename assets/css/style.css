@@ -308,7 +308,6 @@ main {
 
 .reasons-learn-programming-with-us-container {
   position: relative;
-  margin-top: 1rem;
   padding: 1rem;
   background: url("../images/laptop_2_mobile_optimized.webp") no-repeat center center/cover;
 }
@@ -381,7 +380,6 @@ input.hidden:checked ~ .reasons-to-choose-us-label > svg {
 
 /* Table section */
 .top-programming-languages-table-section-container {
-  margin-top: 1rem;
   padding: 1rem;
   position: relative;
   background: url("../images/laptop_3_mobile_optimized.webp") no-repeat center center/cover;
@@ -401,7 +399,6 @@ th, td {
 /* Students's feedback section */
 .students-feedback-container {
   position: relative;
-  margin: 1rem 0;
   padding: 1rem 0;
   background: url("../images/laptop_4_mobile_optimized.webp") no-repeat center center/cover;
 }
@@ -410,7 +407,6 @@ th, td {
 #courses-section-wrapper {
   position: relative;
   min-height: 60vh;
-  margin: 1rem 0;
   padding: 1rem;
   border: 1px solid var(--dark-color);
 }
@@ -420,7 +416,6 @@ th, td {
 }
 
 .course-description p {
-  font-size: 1.1rem;
   font-weight: 500;
   padding: 0.2rem;
 }
@@ -482,7 +477,6 @@ input[id="php"]:checked + label {
 
 /* Enroll section */
 form {
-  margin-bottom: 1rem;
   padding: 2rem 0.5rem;
 }
 
@@ -549,6 +543,7 @@ footer {
   align-items: center;
   flex-basis: 30vh;
   position: relative;
+  margin-top: 1rem;
 }
 
 footer .copyright-wrapper {
