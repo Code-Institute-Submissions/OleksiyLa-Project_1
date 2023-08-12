@@ -39,6 +39,7 @@ h1 {
   font-size: 1.8rem;
   margin-top: 35vh;
 }
+
 p {
   font-family: "Raleway", sans-serif;
   font-size: var(--text-font-size);
@@ -277,7 +278,6 @@ header .nav-item a {
 	width: 100%;
 	height: 100%;
 	padding: 2rem 0;
-	user-select: none;
 }
 
 header .nav-item a:hover {
@@ -286,6 +286,7 @@ header .nav-item a:hover {
   transition: color 0.2s, transform 0.2s;
 
 }
+
 header .nav-item .active {
 	color: var(--highlight-color);
 }
@@ -574,6 +575,7 @@ footer .copyright-wrapper {
     left: 15vw;
     right: 15vw;
   }
+
   .form-group {
     width: 80%;
   }
@@ -614,6 +616,7 @@ footer .copyright-wrapper {
     width: 5rem;
     left: 5rem;
   }
+
   .card-container {
     padding: 0 2rem;
     grid-template-columns: 1fr 1fr 1fr;
