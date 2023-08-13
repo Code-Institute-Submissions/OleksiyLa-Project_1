@@ -1,7 +1,7 @@
 # CoderOnline
 CoderOnline stands out as a leading programming academy, where our experienced instructors not only share their passion for programming with students but also facilitate a rapid and enjoyable learning process through interactive online lectures. Whether you're a newcomer taking your first steps toward a programming career or a seasoned coder looking to enhance your skills, be sure to explore the variety of courses we offer on our website and remember to secure your enrollment for an enriching experience!
 
-![Responsive website on different devices](./README/responsive_web_img.png)
+![Responsive website on different devices](./README/images/responsive_web_img.png)
 
 ## Features
 
@@ -26,13 +26,18 @@ The Navigation Menu comprises four pages: Home, Courses, Our Instructors, and En
 
 Each section with substantial content begins with an interactive heading. Clicking on this heading will cause the page to scroll to its corresponding content.
 
-![Example of Interactive Heading](./README/heading-1.png) ![Example of Interactive Heading](./README/heading-2.png)
+![Example of Interactive Heading](./README/images/heading-1.png) ![Example of Interactive Heading](./README/images/heading-2.png)
 
 ### Why Choose Us Section
+- The "Why Choose Us" Section highlights the benefits of studying at the school.
+- Each point within this section is interactive. Clicking on a point reveals more detailed information.
+- There is also an advertisement encouraging enrollment, accompanied by a link with a black background that directs users to the Enroll page.
 
-![Why Choose Us section](./README/why-choose-us-sestion.png)
+![Why Choose Us section](./README/images/why-choose-us-sestion.png)
 
 ### Courses Page
+
+![Courses Page](./README/images/courses-page.png)
 
 ### Enroll Page
 
