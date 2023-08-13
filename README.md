@@ -1,7 +1,22 @@
 # CoderOnline
-CoderOnline stands out as a leading programming academy, where our experienced instructors not only share their passion for programming with students but also facilitate a rapid and enjoyable learning process through interactive online lectures. Whether you're a newcomer taking your first steps toward a programming career or a seasoned coder looking to enhance your skills, be sure to explore the variety of courses we offer on our website and remember to secure your enrollment for an enriching experience!
+CoderOnline stands out as a leading programming school, where our experienced instructors not only share their passion for programming with students but also facilitate a rapid and enjoyable learning process through interactive online lectures. Whether you're a newcomer taking your first steps toward a programming career or a seasoned coder looking to enhance your skills, be sure to explore the variety of courses we offer on our website and remember to secure your enrollment for an enriching experience!
 
 ![Responsive website on different devices](./README/images/responsive_web_img.png)
+
+## Planning & Development
+- __Target audience__
+ - People who are beginning to study programming from scratch.
+ - Individuals looking to deepen their knowledge.
+ - Experienced developers who want to change their programming language.
+
+- __Site Objectives__
+  - The website should be convenient to navigate.
+  - To higlight advantages of the school.
+  - To offer statements from experienced instructors that demonstrate their expertise and passion for programming
+  - To provide users with the ability to enroll to a course.
+
+- __Wireframes__
+[Wireframes](./README/wireframes/CoderOnline_Wireframes.pdf)
 
 ## Features
 
@@ -91,8 +106,6 @@ The website's appearance varies based on the screen size, leading to adjustments
 
 ### 404 Page
 - The 404 Page informs that an incorrect URL has been entered and provides a recommendation to verify the URL or use the Navigation menu.
-
-## Planning & Development
 
 ## Testing
 
