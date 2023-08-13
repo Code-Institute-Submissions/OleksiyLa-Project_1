@@ -7,7 +7,9 @@ CoderOnline stands out as a leading programming academy, where our experienced i
 
 ### Navigation Menu
 
-The Navigation Menu comprises four pages: Home, Courses, Our Instructors, and Enroll. It's designed to be responsive, appearing differently on mobile devices.
+- The Navigation Menu comprises four pages: Home, Courses, Our Instructors, and Enroll.
+- It's designed to be responsive, appearing differently on mobile devices.
+- Depending on the selected page, the corresponding menu item is highlighted.
 
 - __Mobile__
   - A burger menu is displayed on screens with a width of 1200px or less.
@@ -52,6 +54,10 @@ Each section with substantial content begins with an interactive heading. Clicki
 ![Submit Page](./README/images/submit.png)
 
 ### 404 Page
+
+If you enter an incorrect URL, the 404 Page will appear.
+
+![Submit Page](./README/images/404.png)
 
 ### Footer
 
