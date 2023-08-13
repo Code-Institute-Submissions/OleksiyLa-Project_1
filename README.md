@@ -64,6 +64,11 @@ If you enter an incorrect URL, the 404 Page will appear.
 - When a social icon is clicked, it opens in a new tab.
 - Clicking on the phone icon triggers the application to initiate a call.
 
+### Responsiveness
+The website's appearance varies based on the screen size, leading to adjustments in font sizes, layout, and background image resolution to accommodate different devices
+
+![Cards layout on different devices.](./README/images/responsive_web_cards_img.png)
+
 ## Content
 
 ### Home Page
