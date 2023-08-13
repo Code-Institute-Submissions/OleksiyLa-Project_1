@@ -15,7 +15,8 @@ CoderOnline stands out as a leading programming school, where our experienced in
   - To offer statements from experienced instructors that demonstrate their expertise and passion for programming
   - To provide users with the ability to enroll to a course.
 
-- __[Wireframes](./README/wireframes/CoderOnline_Wireframes.pdf)__
+- __Wireframes__
+  -[Wireframes PDF file](./README/wireframes/CoderOnline_Wireframes.pdf)
 
 - __Fonts__
   - Open Sans
@@ -116,8 +117,27 @@ The website's appearance varies based on the screen size, leading to adjustments
 ### 404 Page
 - The 404 Page informs that an incorrect URL has been entered and provides a recommendation to verify the URL or use the Navigation menu.
 
-## Testing
+## Testing 
+
+### Validator Testing 
+- HTML
+- CSS
+
+### Lighthouse
+
+### Unfixed Bugs
 
 ## Deployment
+- __The site has been deployed to GitHub Pages. The deployment process involves the following steps:__
+    - Navigate to the Settings tab within this project's repository.
+    - Select 'Pages' from the left-hand menu.
+    - From the 'Source' section drop-down menu, choose the main branch.
+    - After saving the main branch a link to the live project will be provided.
+
+The link to the live project - https://oleksiyla.github.io/Project_1/
 
 ## Credits
+
+### Content
+
+### Media
