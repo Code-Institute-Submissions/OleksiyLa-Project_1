@@ -120,8 +120,16 @@ The website's appearance varies based on the screen size, leading to adjustments
 ## Testing 
 
 ### Validator Testing 
-- HTML
-- CSS
+- __W3C HTML Validator__
+  - All HTML files have been validated using the W3C HTML Validator, with no errors or warnings found.
+  ![index.html validated](./README/images/html_validator.png)
+
+- __W3C CSS Validator (Jigsaw)__
+  - The CSS code has been validated using the W3C CSS Validator (Jigsaw), and no errors were found.
+  ![style.css validated](./README/images/css_validator.png)
+
+  - The only warning that was found pertains to the imported Google fonts, which are an external link and therefore cannot be validated.
+  ![style.css google fonts link warning](./README/images/css_validator_warning.png)
 
 ### Lighthouse
 
