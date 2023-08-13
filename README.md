@@ -22,6 +22,12 @@ The Navigation Menu comprises four pages: Home, Courses, Our Instructors, and En
   - The navigation menu is aligned in a row layout and is consistently positioned at the top of the screen.
   - When a navigation item is hovered over, the text changes its color and increases in size.
 
+### Navigation Headings
+
+Each section with substantial content begins with an interactive heading. Clicking on this heading will cause the page to scroll to its corresponding content.
+
+![Interactive Why Choose Us section](./README/landing-page-mobile.png)
+
 ### Why Choose Us Section
 
 ### Courses Page
