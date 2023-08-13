@@ -152,6 +152,8 @@ The link to the live project - https://oleksiyla.github.io/Project_1/
 ## Credits
 
 ### Content
+- PYPL index provides ratings for the most popular programming languages (Aug 2023): https://pypl.github.io/PYPL.html
+- TIOBE index provides ratings for the most popular programming languages (Aug 2023): https://www.tiobe.com/tiobe-index/
 - The content was composed with the assistance of ChatGPT: https://chat.openai.com
 - The Raleway and Open Sans fonts were obtained from Google Fonts: https://fonts.google.com
 
