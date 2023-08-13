@@ -43,8 +43,17 @@ Each section with substantial content begins with an interactive heading. Clicki
 ![Courses Page](./README/images/courses-page.png)
 
 ### Enroll Page
+- On the Enroll Page, there is a form present. This form cannot be submitted unless all required fields are completely filled out.
+- Two buttons are provided: one for submitting the form and the other for resetting the form to its initial state.
+- The required fields that must be completed include: Name, Surname, Email, Phone, Your reasons for learning programming, and Upload CV.
+- For the "Upload CV", a file upload is necessary to submit the CV.
+- Once submitted, the "Submit Page" opens, displaying a message confirming the successful submission of the form.
+
+![Submit Page](./README/images/submit.png)
 
 ### 404 Page
+
+### Footer
 
 ## Content
 
