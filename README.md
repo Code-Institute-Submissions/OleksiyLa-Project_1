@@ -135,9 +135,8 @@ The website's appearance varies based on the screen size, leading to adjustments
 
 Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessibility. The only area of concern was Performance, with scores ranging from 80 to 90 due to varying internet speeds. To address this, optimizations were made to the background and avatar images. Additionally, by using an overlay, I could significantly reduce the quality of all background images without compromising the website's visual appearance. This led to an improvement in Performance, resulting in scores ranging from 90 to 99 for mobile and 98 for desktop.
 
-[Lighthouse report for desktop](./README/html/oleksiyla.github.io-desktop.html)
-[Lighthouse report for mobile (Perfomance 90)](./README/html/oleksiyla.github.io-mobile-90.html)
-[Lighthouse report for mobile (Perfomance 99)](./README/html/oleksiyla.github.io-mobile-99.html)
+![Lighthouse report for desktop](./README/images/lighthouse_desktop.png)
+![Lighthouse report for mobile (Perfomance 99)](./README/images/lighthouse_mobile.png)
 
 ### Unfixed Bugs
 
