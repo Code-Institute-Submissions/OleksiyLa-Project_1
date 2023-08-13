@@ -152,5 +152,9 @@ The link to the live project - https://oleksiyla.github.io/Project_1/
 ## Credits
 
 ### Content
+- The content was composed with the assistance of ChatGPT: https://chat.openai.com
+- The Raleway and Open Sans fonts were obtained from Google Fonts: https://fonts.google.com
 
 ### Media
+- Background images and avatar images were sourced from Unsplash: https://unsplash.com
+- All SVG icons, including the favicon, were sourced from FontAwesome: https://fontawesome.com
