@@ -60,6 +60,9 @@ If you enter an incorrect URL, the 404 Page will appear.
 ![Submit Page](./README/images/404.png)
 
 ### Footer
+- In the footer, there are social icons (Facebook, Twitter, YouTube) as well as a phone icon.
+- When a social icon is clicked, it opens in a new tab.
+- Clicking on the phone icon triggers the application to initiate a call.
 
 ## Content
 
