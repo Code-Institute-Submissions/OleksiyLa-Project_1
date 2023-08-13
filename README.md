@@ -5,9 +5,9 @@ CoderOnline stands out as a leading programming school, where our experienced in
 
 ## Planning & Development
 - __Target audience__
- - People who are beginning to study programming from scratch.
- - Individuals looking to deepen their knowledge.
- - Experienced developers who want to change their programming language.
+  - People who are beginning to study programming from scratch.
+  - Individuals looking to deepen their knowledge.
+  - Experienced developers who want to change their programming language.
 
 - __Site Objectives__
   - The website should be convenient to navigate.
@@ -15,8 +15,17 @@ CoderOnline stands out as a leading programming school, where our experienced in
   - To offer statements from experienced instructors that demonstrate their expertise and passion for programming
   - To provide users with the ability to enroll to a course.
 
-- __Wireframes__
-[Wireframes](./README/wireframes/CoderOnline_Wireframes.pdf)
+- __[Wireframes](./README/wireframes/CoderOnline_Wireframes.pdf)__
+
+- __Fonts__
+  - Open Sans
+  - Raleway
+
+- __Colors__
+  - main color: #d6cccc
+  - highlight color: #eded10
+  - dark color: #000000;
+  - light color: #ffffff;
 
 ## Features
 
