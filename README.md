@@ -65,21 +65,36 @@ If you enter an incorrect URL, the 404 Page will appear.
 - Clicking on the phone icon triggers the application to initiate a call.
 
 ### Responsiveness
-The website's appearance varies based on the screen size, leading to adjustments in font sizes, layout, and background image resolution to accommodate different devices
+The website's appearance varies based on the screen size, leading to adjustments in font sizes, layout, and background images resolution to accommodate different devices
 
 ![Cards layout on different devices.](./README/images/responsive_web_cards_img.png)
 
 ## Content
 
 ### Home Page
+- The 'Why Choose Us' section showcases a list of advantages associated with studying at the school, accompanied by descriptions that elaborate on each of these advantages.
+- Table of Top Programming Languages According to PYPL and Stack Overflow for 2022.
+- Cards containing students' feedback.
 
 ### Courses Page
+- Courses' names
+- Course Description
 
 ### Instructors Page
+- Cards containing information about the school's instructors.
 
 ### Enroll Page
+- Enrollment form.
+
+### Submit Page
+- Submit Page confirms successful form submission.
+
+### 404 Page
+- The 404 Page informs that an incorrect URL has been entered and provides a recommendation to verify the URL or use the Navigation menu.
 
 ## Planning & Development
+
+## Testing
 
 ## Deployment
 
