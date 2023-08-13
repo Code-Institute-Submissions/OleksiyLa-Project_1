@@ -1,5 +1,5 @@
 # CoderOnline
-CoderOnline stands out as a leading programming school, where our experienced instructors not only share their passion for programming with students but also facilitate a rapid and enjoyable learning process through interactive online lectures. Whether you're a newcomer taking your first steps toward a programming career or a seasoned coder looking to enhance your skills, be sure to explore the variety of courses we offer on our website and remember to secure your enrollment for an enriching experience!
+CoderOnline is an online programming school that highlights the benefits of pursuing education within its institution through its website. These advantages include a team of experienced instructors, constructive student feedback, and a curriculum that revolves around the most popular programming languages (as demonstrated by a table on the website). Furthermore, the website lists the courses that are offered, providing detailed descriptions for each course and offering individuals the opportunity to enroll.
 
 ![Responsive website on different devices](./README/images/responsive_web_img.png)
 
