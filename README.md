@@ -36,6 +36,9 @@ Each section with substantial content begins with an interactive heading. Clicki
 ![Why Choose Us section](./README/images/why-choose-us-sestion.png)
 
 ### Courses Page
+- The "Courses Page" displays a list of courses along with their respective descriptions.
+- To access the description of a course you're interested in, simply click on the respective course.
+- The course whose description is currently open is highlighted.
 
 ![Courses Page](./README/images/courses-page.png)
 
