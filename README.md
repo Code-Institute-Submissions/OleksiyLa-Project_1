@@ -26,9 +26,11 @@ The Navigation Menu comprises four pages: Home, Courses, Our Instructors, and En
 
 Each section with substantial content begins with an interactive heading. Clicking on this heading will cause the page to scroll to its corresponding content.
 
-![Interactive Why Choose Us section](./README/landing-page-mobile.png)
+![Example of Interactive Heading](./README/heading-1.png) ![Example of Interactive Heading](./README/heading-2.png)
 
 ### Why Choose Us Section
+
+![Why Choose Us section](./README/why-choose-us-sestion.png)
 
 ### Courses Page
 
