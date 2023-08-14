@@ -28,6 +28,10 @@ CoderOnline is an online programming school that highlights the benefits of purs
   - dark color: #000000;
   - light color: #ffffff;
 
+- __Technologies__
+  - HTML
+  - CSS
+
 ## Features
 
 ### Navigation Menu
