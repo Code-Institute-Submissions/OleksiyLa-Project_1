@@ -135,14 +135,21 @@ The website's appearance varies based on the screen size, leading to adjustments
 
 Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessibility. The only area of concern was Performance, with scores ranging from 80 to 90 due to varying internet speeds. To address this, optimizations were made to the background and avatar images. Additionally, by using an overlay, I could significantly reduce the quality of all background images without compromising the website's visual appearance. This led to an improvement in Performance, resulting in scores ranging from 90 to 99 for mobile and 98-100 for desktop.
 
+- Lighthouse results for desktop
 ![Lighthouse report for desktop](./README/images/lighthouse_desktop.png)
+
+- Lighthouse results for desktop (Perfect Score)
 ![Lighthouse report for desktop perfect Score](./README/images/lighthouse_desktop_persfect_score.png)
+
+- Lighthouse results for mobile
 ![Lighthouse report for mobile (Perfomance 99)](./README/images/lighthouse_mobile.png)
 
 ### Unfixed Bugs
 - Currently, there is no visible indication when a file is uploaded through the file input in the Enroll form. This problem can be resolved by employing JavaScript. Since I am exclusively using HTML and CSS for this project, I decided to leave this issue unresolved for now.
 
 ![Upload CV image](./README/images/file_input.png)
+
+- The textarea on the Enroll page doesn't have any limitations on the amount of text you can input. This can be resolved with JavaScript as well.
 
 ## Deployment
 - __The site has been deployed to GitHub Pages. The deployment process involves the following steps:__
