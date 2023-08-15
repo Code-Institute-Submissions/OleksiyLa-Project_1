@@ -22,7 +22,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scroll-padding-top: 4rem;
   color: var(--main-color);
 }
 
@@ -614,6 +613,10 @@ footer .copyright-wrapper {
 }
 
 @media screen and (min-width: 1200px) {
+  * {
+    scroll-padding-top: 4rem;
+  }
+
   #logo-svg {
     width: 5rem;
     left: 5rem;
