@@ -382,19 +382,19 @@ a {
   background-color: var(--main-color);
 }
 
-input.hidden:checked ~ p {
+#reasons-learn-programming-with-us-section input.hidden:checked ~ p {
 	display: block;
 }
 
-input.hidden:checked ~ .reasons-to-choose-us-label {
+#reasons-learn-programming-with-us-section input.hidden:checked ~ .reasons-to-choose-us-label {
   color: var(--highlight-color);
 }
 
-input.hidden:checked ~ .reasons-to-choose-us-label::after {
+#reasons-learn-programming-with-us-section input.hidden:checked ~ .reasons-to-choose-us-label::after {
   background-color: var(--highlight-color);
 }
 
-input.hidden:checked ~ .reasons-to-choose-us-label > svg {
+#reasons-learn-programming-with-us-section input.hidden:checked ~ .reasons-to-choose-us-label > svg {
 	transform: rotate(90deg);
   fill: var(--highlight-color);
 }
@@ -406,7 +406,7 @@ input.hidden:checked ~ .reasons-to-choose-us-label > svg {
   background: url("../images/laptop_3_mobile_optimized.webp") no-repeat center center/cover;
 }
 
-caption {
+.caption-ranking {
   font-size: 1.4rem;
   padding: 0.5rem;
 }
@@ -479,29 +479,29 @@ caption {
   left: 0;
 }
 
-input[id="java"]:checked ~ .course-java,
-input[id="c-sharp"]:checked ~ .course-c-sharp,
-input[id="javascript"]:checked ~ .course-javascript,
-input[id="python"]:checked ~ .course-python,
-input[id="php"]:checked ~ .course-php {
+#courses-section input[id="java"]:checked ~ .course-java,
+#courses-section input[id="c-sharp"]:checked ~ .course-c-sharp,
+#courses-section input[id="javascript"]:checked ~ .course-javascript,
+#courses-section input[id="python"]:checked ~ .course-python,
+#courses-section input[id="php"]:checked ~ .course-php {
   display: block;
 }
 
-input[id="java"]:checked + label,
-input[id="c-sharp"]:checked + label,
-input[id="javascript"]:checked + label,
-input[id="python"]:checked + label,
-input[id="php"]:checked + label {
+#courses-section input[id="java"]:checked + label,
+#courses-section input[id="c-sharp"]:checked + label,
+#courses-section input[id="javascript"]:checked + label,
+#courses-section input[id="python"]:checked + label,
+#courses-section input[id="php"]:checked + label {
   color: var(--dark-color);
   background-color: var(--highlight-color);
 }
 
-/* Enroll section */
-form {
+/* Enroll form section */
+.form-enroll {
   padding: 2rem 0.5rem;
 }
 
-fieldset {
+.fieldset-enroll {
   padding: 2rem 0.5rem;
   width: 95%;
 }
@@ -511,12 +511,12 @@ fieldset {
   width: 100%;
 }
 
-form label {
+.form-enroll label {
   font-size: var(--text-font-size);
   padding: 1rem;
 }
 
-form input {
+.form-enroll input {
   font-size: var(--text-font-size);
   font-weight: 700;
   width: 100%;
@@ -524,7 +524,7 @@ form input {
   border-radius: 5px;
 }
 
-form textarea {
+.form-enroll textarea {
   font-size: var(--text-font-size);
   font-weight: 700;
   width: 90%;
@@ -543,7 +543,7 @@ form textarea {
   transform: scale(1.1);
 }
 
-form button {
+.form-enroll button {
   font-size: var(--text-font-size);
   font-weight: 700;
   cursor: pointer;
@@ -553,7 +553,7 @@ form button {
   border-radius: 5px;
 }
 
-form button:hover {
+.form-enroll button:hover {
   color: var(--dark-color);
   background-color: var(--highlight-color);
 }
@@ -601,7 +601,7 @@ footer .copyright-wrapper {
     font-size: 2.5rem;
   }
 
-  label {
+  .label-enroll {
     font-size: 1.5rem;
   }
 
@@ -680,16 +680,16 @@ footer .copyright-wrapper {
     background: url("../images/laptop_4.webp") no-repeat center center/cover;
   }
 
-  form {
+  .form-enroll {
     margin: 0 10rem;
   }
 
-  form input {
+  .form-enroll input {
     font-size: 1rem;
     padding: 1rem;
   }
 
-  form textarea {
+  .form-enroll textarea {
     font-size: 1rem;
   }
 
