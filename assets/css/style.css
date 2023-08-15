@@ -31,12 +31,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.text-styling {
-  font-family: "Raleway", sans-serif;
-  font-size: var(--text-font-size);
-  padding: 1rem;
-}
-
 sup {
 	font-style: italic;
 }
@@ -55,6 +49,11 @@ a {
   text-align: center;
 }
 
+.heading-submit-404 {
+  margin-top: 12vh;
+  text-align: center;
+}
+
 .heading-1 {
   font-size: 1.8rem;
   margin-top: 35vh;
@@ -69,6 +68,12 @@ a {
 .heading-3 {
   font-size: 1.4rem;
   margin: 1rem;
+}
+
+.text-styling {
+  font-family: "Raleway", sans-serif;
+  font-size: var(--text-font-size);
+  padding: 1rem;
 }
 
 /* Common classes */
@@ -234,12 +239,12 @@ a {
 }
 
 /* Header */
-header {
+.header {
   flex-basis: 75vh;
   background: url("../images/laptop_1_mobile_optimized.webp") no-repeat center center/cover;
 }
 
-header::after {
+.header::after {
   content: "";
   position: absolute;
   top: 0;
@@ -253,6 +258,18 @@ header::after {
   height: 75vh;
 	width: 100%;
   z-index: 99;
+}
+
+.header_submit_404_pages {
+  flex-basis: 40vh;
+}
+
+.header_submit_404_pages {
+  height: 40vh;
+}
+
+.header_submit_404_pages::after {
+  height: 40vh;
 }
 
 /* Navigation menu */
