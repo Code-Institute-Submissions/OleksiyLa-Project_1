@@ -31,17 +31,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3 {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-
-h1 {
-  font-size: 1.8rem;
-  margin-top: 35vh;
-}
-
-p {
+.text-styling {
   font-family: "Raleway", sans-serif;
   font-size: var(--text-font-size);
   padding: 1rem;
@@ -61,6 +51,15 @@ a {
 }
 
 /* Common classes styling */
+.heading-1, .heading-2, .heading-3, .sub-heading-header {
+  text-align: center;
+}
+
+.heading-1 {
+  font-size: 1.8rem;
+  margin-top: 35vh;
+}
+
 .heading-2 {
   font-size: 1.5rem;
 	padding: 7vh 1vh;
