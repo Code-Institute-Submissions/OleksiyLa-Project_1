@@ -316,7 +316,7 @@ a {
 }
 
 /* Main */
-main {
+.main {
   flex-grow: 1;
   position: relative;
   text-align: center;
