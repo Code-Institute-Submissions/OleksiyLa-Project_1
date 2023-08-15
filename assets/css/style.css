@@ -153,7 +153,7 @@ a {
   left: 1rem;
 	top: 1rem;
   width: 3rem;
-  z-index: 99;
+  z-index: 11;
   fill: var(--logo-toggle-icons-color);
   animation: rotateAnimation 3s infinite linear;
 }
@@ -449,6 +449,7 @@ a {
 
 .course-label {
   position: absolute;
+  z-index: 20;
   font-size: var(--text-font-size);
   cursor: pointer;
   width: 7rem;
