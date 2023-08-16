@@ -1,7 +1,7 @@
 # CoderOnline
 CoderOnline is an online programming school that highlights the benefits of pursuing education within its institution through its website. These advantages include a team of experienced instructors, constructive student feedback, and a curriculum that revolves around the most popular programming languages (as demonstrated by a table on the website). Furthermore, the website lists the courses that are offered, providing detailed descriptions for each course and offering individuals the opportunity to enroll.
 
-![Responsive website on different devices](./README/images/responsive_web_img.png)
+![Responsive website on different devices](./README/images/website/responsive_web_img.png)
 
 ## Planning & Development
 - __Target audience__
@@ -68,21 +68,21 @@ CoderOnline is an online programming school that highlights the benefits of purs
 
 Each section with substantial content begins with an interactive heading. Clicking on this heading will cause the page to scroll to its corresponding content.
 
-![Example of Interactive Heading](./README/images/heading-1.png) ![Example of Interactive Heading](./README/images/heading-2.png)
+![Example of Interactive Heading](./README/images/website/heading-1.png) ![Example of Interactive Heading](./README/images/website/heading-2.png)
 
 ### Why Choose Us Section
 - The "Why Choose Us" Section highlights the benefits of studying at the school.
 - Each point within this section is interactive. Clicking on a point reveals more detailed information.
 - There is also an advertisement encouraging enrollment, accompanied by a link with a black background that directs users to the Enroll page.
 
-![Why Choose Us section](./README/images/why-choose-us-sestion.png)
+![Why Choose Us section](./README/images/website/why-choose-us-sestion.png)
 
 ### Courses Page
 - The "Courses Page" displays a list of courses along with their respective descriptions.
 - To access the description of a course you're interested in, simply click on the respective course.
 - The course whose description is currently open is highlighted.
 
-![Courses Page](./README/images/courses-page.png)
+![Courses Page](./README/images/website/courses-page.png)
 
 ### Enroll Page
 - On the Enroll Page, there is a form present. This form cannot be submitted unless all required fields are completely filled out.
@@ -91,13 +91,13 @@ Each section with substantial content begins with an interactive heading. Clicki
 - For the "Upload CV", a file upload is necessary to submit the CV.
 - Once submitted, the "Submit Page" opens, displaying a message confirming the successful submission of the form.
 
-![Submit Page](./README/images/submit.png)
+![Submit Page](./README/images/website/submit.png)
 
 ### 404 Page
 
 If you enter an incorrect URL, the 404 Page will appear.
 
-![Submit Page](./README/images/404.png)
+![Submit Page](./README/images/website/404.png)
 
 ### Footer
 - In the footer, there are social icons (Facebook, Twitter, YouTube) as well as a phone icon.
@@ -107,7 +107,7 @@ If you enter an incorrect URL, the 404 Page will appear.
 ### Responsiveness
 The website's appearance varies based on the screen size, leading to adjustments in font sizes, layout, and background images resolution to accommodate different devices
 
-![Cards layout on different devices.](./README/images/responsive_web_cards_img.png)
+![Cards layout on different devices.](./README/images/website/responsive_web_cards_img.png)
 
 ## Content
 
@@ -137,25 +137,25 @@ The website's appearance varies based on the screen size, leading to adjustments
 ### Validator Testing 
 - __W3C HTML Validator__
   - All HTML files have been validated using the W3C HTML Validator, with no errors or warnings found.
-  ![index.html validated](./README/images/html_validator.png)
+  ![index.html validated](./README/images/validator/html_validator.png)
 
 - __W3C CSS Validator (Jigsaw)__
   - The CSS code has been validated using the W3C CSS Validator (Jigsaw), and no errors were found.
-  ![style.css validated](./README/images/css_validator.png)
+  ![style.css validated](./README/images/validator/css_validator.png)
 
   - The only warning that was found pertains to the imported Google fonts, which are an external link and therefore cannot be validated.
-  ![style.css google fonts link warning](./README/images/css_validator_warning.png)
+  ![style.css google fonts link warning](./README/images/validator/css_validator_warning.png)
 
 ### Lighthouse
 
 Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessibility. The only area of concern was Performance, with scores ranging from 80 to 90 due to varying internet speeds. To address this, optimizations were made to the background and avatar images. Additionally, by using an overlay, I could significantly reduce the quality of all background images without compromising the website's visual appearance. This led to an improvement in Performance, resulting in scores ranging from 90 to 100.
 
 - Lighthouse results for desktop
-![Lighthouse report for desktop](./README/images/lighthouse_desktop.png)
+![Lighthouse report for desktop](./README/images/lighthouse/lighthouse_desktop.png)
 
 - Lighthouse results for mobile
-![Lighthouse report for mobile (Perfomance 99)](./README/images/light_house_mobile_99.png)
-![Lighthouse report for mobile (Perfomance 94)](./README/images/light_house_mobile_94.png)
+![Lighthouse report for mobile (Perfomance 99)](./README/images/lighthouse/light_house_mobile_99.png)
+![Lighthouse report for mobile (Perfomance 94)](./README/images/lighthouse/light_house_mobile_94.png)
 
 ### Manual Testing
 - Ensured the visibility of the burger menu on mobile devices.
@@ -179,7 +179,7 @@ Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessib
 ### Unfixed Bugs
 - Currently, there is no visible indication when a file is uploaded through the file input in the Enroll form. This problem can be resolved by employing JavaScript. Since I am exclusively using HTML and CSS for this project, I decided to leave this issue unresolved for now.
 
-![Upload CV image](./README/images/file_input.png)
+![Upload CV image](./README/images/website/file_input.png)
 
 - The textarea on the Enroll page doesn't have any limitations on the amount of text you can input. This can be resolved with JavaScript as well.
 
@@ -188,11 +188,11 @@ Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessib
 
 - While on the course page, you might face difficulty clicking the course button if it's obstructed by the logo image.
 
-![Logo image covers C# button](./README/images/logo_courses_bug.png)
+![Logo image covers C# button](./README/images/website/logo_courses_bug.png)
 
 - To address this issue, I initially attempted to resolve it by adjusting the z-index. However, this approach proved insufficient due to complications arising from the nested positioning of the logo within another element. Altering the z-index of that element risked disrupting the overall appearance, notably with the navigation menu. As an alternative, I opted to reposition the logo within the HTML and fine-tuned the z-index accordingly.
 
-![Logo image covers course button (Fixed)](./README/images/logo_courses_bug_fixed.png)
+![Logo image covers course button (Fixed)](./README/images/website/logo_courses_bug_fixed.png)
 
 ## Deployment
 - __The site has been deployed to GitHub Pages. The deployment process involves the following steps:__
