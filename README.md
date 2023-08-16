@@ -231,11 +231,11 @@ Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessib
     </pre>
   - Enrollment Process: As a user, I want a straightforward process to enroll in the desired course, ensuring a seamless experience without complications.
     - <pre>
-    The "Enroll" page features a form that needs to be filled out for course enrollment. Required fields include Name, Surname, Email, Phone, Your reasons for learning programming, and Upload CV. Uploading a file is necessary for the "Upload CV" section. After submission, the "Submit Page" opens, confirming the successful form submission.
+      The "Enroll" page features a form that needs to be filled out for course enrollment. Required fields include Name, Surname, Email, Phone, Your reasons for learning programming, and Upload CV. Uploading a file is necessary for the "Upload CV" section. After submission, the "Submit Page" opens, confirming the successful form submission.
     </pre>
   - School's Advantages: As a user, I look forward to discovering the school's distinctive advantages, enabling me to understand the benefits of choosing this institution for my education.
     - <pre>
-    The "Why Choose Us" section showcases the advantages of studying at the school. Each point in this section is interactive; clicking on a point reveals more detailed information.
+      The "Why Choose Us" section showcases the advantages of studying at the school. Each point in this section is interactive; clicking on a point reveals more detailed information.
     <pre>
   
 
