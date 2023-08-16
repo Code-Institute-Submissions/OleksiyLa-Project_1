@@ -212,6 +212,34 @@ Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessib
 
 ![Logo image covers course button (Fixed)](./README/images/website/logo_courses_bug_fixed.png)
 
+### Test against userstories
+  - User-Friendly Navigation: As a user, I expect the website to offer intuitive navigation, enabling me to move around the site effortlessly.
+    - <pre>
+      The website's navigation menu is thoughtfully designed to prioritize simplicity and user-friendliness. Positioned at the top of the screen, it remains consistently visible for seamless accessibility. On mobile devices, the menu employs a column layout, while on desktop devices, it adopts a row layout. This responsiveness is further emphasized when the screen width is less than 1200px, which triggers the display of a burger menu icon.
+
+      Upon clicking the burger icon, a series of changes takes place: an overlay emerges, accompanied by a cancel icon, and the navigation menu becomes visible. Simultaneously, the burger icon vanishes. Both the burger and cancel icons remain fixed at the top right corner of the screen, retaining their position even as users scroll. Selecting the cancel icon closes the navigation menu, causing the cancel icon itself to disappear, and the burger menu icon to be reinstated in its place.
+
+      The navigation menu's placement at the bottom of the screen and its organization in a column layout suggest that it considers multiple layout options for different scenarios. This level of attention to responsive design and user interaction exemplifies a comprehensive approach to accommodating diverse user experiences across various devices.
+    </pre>
+  - Instructor Information: As a user, I anticipate finding comprehensive details about the school's instructors, allowing me to learn more about their expertise and background.
+    - <pre>
+      The "Our Instructors" page features cards that contain information about the school's instructors. Each card includes a photo of the instructor, their name, and a comprehensive description of their experience.
+    </pre>
+  - Course Information: As a user, I hope to easily access information about the variety of courses the school offers, enabling me to make informed decisions about my learning path.
+    - <pre>
+      The "Courses" page showcases cards with details about the offered courses. Each card presents the course's name along with a description.
+    </pre>
+  - Enrollment Process: As a user, I want a straightforward process to enroll in the desired course, ensuring a seamless experience without complications.
+    - <pre>
+    The "Enroll" page features a form that needs to be filled out for course enrollment. Required fields include Name, Surname, Email, Phone, Your reasons for learning programming, and Upload CV. Uploading a file is necessary for the "Upload CV" section. After submission, the "Submit Page" opens, confirming the successful form submission.
+    </pre>
+  - School's Advantages: As a user, I look forward to discovering the school's distinctive advantages, enabling me to understand the benefits of choosing this institution for my education.
+    - <pre>
+    The "Why Choose Us" section showcases the advantages of studying at the school. Each point in this section is interactive; clicking on a point reveals more detailed information.
+    <pre>
+  
+
+
 ## Deployment
 - __The site has been deployed to GitHub Pages. The deployment process involves the following steps:__
     - Navigate to the Settings tab within this project's repository.
