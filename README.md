@@ -23,7 +23,25 @@ CoderOnline is an online programming school that highlights the benefits of purs
   - School's Advantages: As a user, I look forward to discovering the school's distinctive advantages, enabling me to understand the benefits of choosing this institution for my education.
 
 - __Wireframes__
-  -[Wireframes PDF file](./README/wireframes/CoderOnline_Wireframes.pdf)
+  - The website will be responsive, encompassing both mobile and desktop versions. The navigation menu will be positioned at the top of the page and transforms into a burger menu for mobile devices.\
+
+  ![Mobile wireframe](./README/images/wireframes/mobile.png)
+
+  - The home page will showcase the benefits of studying at the school, present a table of the most popular programming languages, and feature positive student feedback.
+
+  ![Home page wireframe](./README/images/wireframes/home_page.png)
+
+  - The courses page will display all the courses taught at the school, along with detailed descriptions for each course.
+
+  ![Courses page wireframe](./README/images/wireframes/courses_page.png)
+
+  - The instructors page provides information about the school's instructors and their professional experience.
+
+  ![Instructor page wireframe](./README/images/wireframes/instructors_page.png)
+
+  - The enroll page offers the opportunity to fill out and submit a form to express interest in studying at the school.
+  
+  ![Enroll page wireframe](./README/images/wireframes/enroll_page.png)
 
 - __Fonts__
 - In the initial stages of project planning, the core aim was to enhance the user experience and make it thoroughly enjoyable. To accomplish this, a deliberate decision was made to integrate two fonts that not only facilitate effortless reading but also radiate a visually pleasing aesthetic.
