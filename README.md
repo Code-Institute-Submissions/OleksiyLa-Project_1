@@ -26,12 +26,14 @@ CoderOnline is an online programming school that highlights the benefits of purs
   -[Wireframes PDF file](./README/wireframes/CoderOnline_Wireframes.pdf)
 
 - __Fonts__
+
 In the initial stages of project planning, the core aim was to enhance the user experience and make it thoroughly enjoyable. To accomplish this, a deliberate decision was made to integrate two fonts that not only facilitate effortless reading but also radiate a visually pleasing aesthetic.
 
   - Open Sans
   - Raleway
 
 - __Colors__
+
 The color palette was intentionally selected to exude simplicity and comfort for the viewer. The main color is a light gray, while the highlight color is yellow. The dark color is black, and the light color is white.
 
   - main color: #d6cccc
@@ -154,8 +156,8 @@ Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessib
 ![Lighthouse report for desktop](./README/images/lighthouse_desktop.png)
 
 - Lighthouse results for mobile
-![Lighthouse report for mobile (Perfomance 94)](./README/images/light_house_mobile_94.png)
 ![Lighthouse report for mobile (Perfomance 99)](./README/images/light_house_mobile_99.png)
+![Lighthouse report for mobile (Perfomance 94)](./README/images/light_house_mobile_94.png)
 
 ### Unfixed Bugs
 - Currently, there is no visible indication when a file is uploaded through the file input in the Enroll form. This problem can be resolved by employing JavaScript. Since I am exclusively using HTML and CSS for this project, I decided to leave this issue unresolved for now.
@@ -163,6 +165,17 @@ Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessib
 ![Upload CV image](./README/images/file_input.png)
 
 - The textarea on the Enroll page doesn't have any limitations on the amount of text you can input. This can be resolved with JavaScript as well.
+
+### Fixed Bugs
+-__Logo image covers interactive element__
+
+- While on the course page, you might face difficulty clicking the course button if it's obstructed by the logo image.
+
+![Logo image covers C# button](./README/images/logo_courses_bug.png)
+
+- To address this issue, I initially attempted to resolve it by adjusting the z-index. However, this approach proved insufficient due to complications arising from the nested positioning of the logo within another element. Altering the z-index of that element risked disrupting the overall appearance, notably with the navigation menu. As an alternative, I opted to reposition the logo within the HTML and fine-tuned the z-index accordingly.
+
+![Logo image covers course button (Fixed)](./README/images/logo_courses_bug_fixed.png)
 
 ## Deployment
 - __The site has been deployed to GitHub Pages. The deployment process involves the following steps:__
