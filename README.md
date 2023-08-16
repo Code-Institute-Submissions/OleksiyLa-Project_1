@@ -26,13 +26,13 @@ CoderOnline is an online programming school that highlights the benefits of purs
   -[Wireframes PDF file](./README/wireframes/CoderOnline_Wireframes.pdf)
 
 - __Fonts__
-  * In the initial stages of project planning, the core aim was to enhance the user experience and make it thoroughly enjoyable. To accomplish this, a deliberate decision was made to integrate two fonts that not only facilitate effortless reading but also radiate a visually pleasing aesthetic.
+- In the initial stages of project planning, the core aim was to enhance the user experience and make it thoroughly enjoyable. To accomplish this, a deliberate decision was made to integrate two fonts that not only facilitate effortless reading but also radiate a visually pleasing aesthetic.
 
   - Open Sans
   - Raleway
 
 - __Colors__
-  * The color palette was intentionally selected to exude simplicity and comfort for the viewer. The main color is a light gray, while the highlight color is yellow. The dark color is black, and the light color is white.
+- The color palette was intentionally selected to exude simplicity and comfort for the viewer. The main color is a light gray, while the highlight color is yellow. The dark color is black, and the light color is white.
 
   - main color: #d6cccc
   - highlight color: #eded10
@@ -184,7 +184,7 @@ Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessib
 - The textarea on the Enroll page doesn't have any limitations on the amount of text you can input. This can be resolved with JavaScript as well.
 
 ### Fixed Bugs
--__Logo image covers interactive element__
+-__Logo image covers an interactive element__
 
 - While on the course page, you might face difficulty clicking the course button if it's obstructed by the logo image.
 
@@ -214,3 +214,6 @@ The link to the live project - https://oleksiyla.github.io/Project_1/
 ### Media
 - Background images and avatar images were sourced from Unsplash: https://unsplash.com
 - All SVG icons, including the favicon, were sourced from FontAwesome: https://fontawesome.com
+
+### Thanks
+- Grateful to my mentor, Richard Wells, for his valuable advice and support.
