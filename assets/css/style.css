@@ -158,6 +158,10 @@ a {
   animation: rotateAnimation 3s infinite linear;
 }
 
+.chevron-down {
+  width: 1.1rem;
+}
+
 /* Logo animation */
 @keyframes rotateAnimation {
   from {
@@ -636,6 +640,10 @@ footer .copyright-wrapper {
   #logo-svg {
     width: 5rem;
     left: 5rem;
+  }
+
+  .chevron-down {
+    width: 1.5rem;
   }
 
   .card-container {
