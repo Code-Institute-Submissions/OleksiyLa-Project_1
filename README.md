@@ -15,14 +15,25 @@ CoderOnline is an online programming school that highlights the benefits of purs
   - To offer statements from experienced instructors that demonstrate their expertise and passion for programming
   - To provide users with the ability to enroll to a course.
 
+- __User story__
+  - User-Friendly Navigation: As a user, I expect the website to offer intuitive navigation, enabling me to move around the site effortlessly.
+  - Instructor Information: As a user, I anticipate finding comprehensive details about the school's instructors, allowing me to learn more about their expertise and background.
+  - Course Information: As a user, I hope to easily access information about the variety of courses the school offers, enabling me to make informed decisions about my learning path.
+  - Enrollment Process: As a user, I want a straightforward process to enroll in the desired course, ensuring a seamless experience without complications.
+  - School's Advantages: As a user, I look forward to discovering the school's distinctive advantages, enabling me to understand the benefits of choosing this institution for my education.
+
 - __Wireframes__
   -[Wireframes PDF file](./README/wireframes/CoderOnline_Wireframes.pdf)
 
 - __Fonts__
+In the initial stages of project planning, the core aim was to enhance the user experience and make it thoroughly enjoyable. To accomplish this, a deliberate decision was made to integrate two fonts that not only facilitate effortless reading but also radiate a visually pleasing aesthetic.
+
   - Open Sans
   - Raleway
 
 - __Colors__
+The color palette was intentionally selected to exude simplicity and comfort for the viewer. The main color is a light gray, while the highlight color is yellow. The dark color is black, and the light color is white.
+
   - main color: #d6cccc
   - highlight color: #eded10
   - dark color: #000000;
