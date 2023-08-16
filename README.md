@@ -26,15 +26,13 @@ CoderOnline is an online programming school that highlights the benefits of purs
   -[Wireframes PDF file](./README/wireframes/CoderOnline_Wireframes.pdf)
 
 - __Fonts__
-
-In the initial stages of project planning, the core aim was to enhance the user experience and make it thoroughly enjoyable. To accomplish this, a deliberate decision was made to integrate two fonts that not only facilitate effortless reading but also radiate a visually pleasing aesthetic.
+  * In the initial stages of project planning, the core aim was to enhance the user experience and make it thoroughly enjoyable. To accomplish this, a deliberate decision was made to integrate two fonts that not only facilitate effortless reading but also radiate a visually pleasing aesthetic.
 
   - Open Sans
   - Raleway
 
 - __Colors__
-
-The color palette was intentionally selected to exude simplicity and comfort for the viewer. The main color is a light gray, while the highlight color is yellow. The dark color is black, and the light color is white.
+  * The color palette was intentionally selected to exude simplicity and comfort for the viewer. The main color is a light gray, while the highlight color is yellow. The dark color is black, and the light color is white.
 
   - main color: #d6cccc
   - highlight color: #eded10
@@ -158,6 +156,25 @@ Lighthouse reports flawless scores of 100% for SEO, Best Practices, and Accessib
 - Lighthouse results for mobile
 ![Lighthouse report for mobile (Perfomance 99)](./README/images/light_house_mobile_99.png)
 ![Lighthouse report for mobile (Perfomance 94)](./README/images/light_house_mobile_94.png)
+
+### Manual Testing
+- Ensured the visibility of the burger menu on mobile devices.
+- After clicking, the burger menu disappears, and in its place, a cancel icon appears.
+- Clicking the burger icon reveals the navigation menu.
+- Instead of a burger menu, the desktop version features a navigation bar positioned at the top.
+- The navigation menu operates smoothly and efficiently.
+- When clicking on an interactive section heading, the window scrolls to the main content.
+- Social links in the footer open their corresponding pages in new tabs.
+- Clicking the phone icon triggers a call application.
+- In the 'Why Choose Us' section, the content is revealed upon clicking an item in the list of reasons.
+- In the 'Why Choose Us' section, clicking on the 'Enroll' anchor tag directs you to the Enroll page.
+- In the 'Our Students' Feedback' section, the layout of student comment cards varies based on the screen size.
+- On the courses page, the course description changes dynamically based on the selected course, which is highlighted.
+- On the 'Our Instructors' page, the layout of instructor info cards adapts to different screen sizes.
+- On the Enroll page, every input field is mandatory, and the form cannot be submitted if any field has been left blank.
+- The reset button restores the form to its initial state.
+- After submitting the form, the browser redirects to a new page that informs the user about the successful submission.
+- When an incorrect URL is entered, the browser redirects to a page that informs the user about the error and provides guidance to either check the URL or use the navigation menu.
 
 ### Unfixed Bugs
 - Currently, there is no visible indication when a file is uploaded through the file input in the Enroll form. This problem can be resolved by employing JavaScript. Since I am exclusively using HTML and CSS for this project, I decided to leave this issue unresolved for now.
